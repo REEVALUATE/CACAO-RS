@@ -1,3 +1,5 @@
+# Descriptions of the licenses from https://pro.europeana.eu/page/available-rights-statements
+
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
@@ -80,11 +82,7 @@
         dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
         odrl:action odrl:attribution .
         odrl:action cc:Notice .
-    ] ;
-    odrl:prohibition [
-         a odrl:Prohibition ;
-         odrl:action odrl:ensureExclusivity
-    ]
+    ] 
     .
 
 
@@ -102,7 +100,6 @@
         odrl:action odrl:reproduce ;
         odrl:action odrl:distribute ;
         odrl:action odrl:modify ;
-        odrl:action odrl:derive ;
         odrl:action odrl:commercialUse ;
     ] ;
 
@@ -114,7 +111,8 @@
 
     odrl:prohibition [
          a odrl:Prohibition ;
-         odrl:action cc:DerivativeWorks
+        odrl:action odrl:derive ;
+        odrl:action cc:DerivativeWorks
     ]
     .
 
@@ -122,8 +120,8 @@
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons Attribution, Non-Commercial 4.0 International"@en ;
     dct:title "CC BY-NC 4.0"@en ;
-    rdfs:seeAlso <https://creativecommons.org/licenses/by-nd/4.0/> ;
-    dct:description "This license lets others redistribute the work, and to make commercial and non-commercial use of the work as long as no alteration is made to the work and the creator is attributed according to the specifications of the licence..."@en ;
+    rdfs:seeAlso <https://creativecommons.org/licenses/by-nc/4.0/> ;
+    dct:description "This licence lets others remix, tweak, and build upon the licensed work for non-commercial use. Any new works created and based on your work must be attributed to the creator as specified in the licence, and may be available for non-commercial use only..."@en ;
 
     # Add the Permission rule to the Policy
     odrl:permission [
@@ -143,6 +141,65 @@
         
     odrl:prohibition [
          a odrl:Prohibition ;
+        odrl:action odrl:commercialUse ;
+    ]
+    .
+
+<cc-by-nc-sa-4.0>
+    rdf:type odrl:Policy ;
+    rdfs:label "Creative Commons Attribution, Non-Commercial, ShareAlike 4.0 International"@en ;
+    dct:title "CC BY-NC-SA 4.0"@en ;
+    rdfs:seeAlso <https://creativecommons.org/licenses/by-ns-sa/4.0/> ;
+    dct:description "This licence lets others remix, tweak, and build upon the licensed work for non-commercial use as long as they attribute the creator of the work under the terms specified in the licence, and licence new creations under identical terms..."@en ;
+
+    # Add the Permission rule to the Policy
+    odrl:permission [
+        rdf:type odrl:Permission ;
+        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
+        odrl:action odrl:reproduce ;
+        odrl:action odrl:distribute ;
+        odrl:action odrl:modify ;
+        odrl:action odrl:derive ;
+    ] ;
+
+    odrl:obligation [
+        a odrl:Duty ;
+        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
+        odrl:action odrl:attribution .
+        odrl:action cc:Notice .
+    ] ;
+        
+    odrl:prohibition [
+         a odrl:Prohibition ;
+        odrl:action odrl:commercialUse ;
+    ]
+    .
+
+<cc-by-nc-nd-4.0>
+    rdf:type odrl:Policy ;
+    rdfs:label "Creative Commons Attribution, Non-Commercial, No Derivatives 4.0 International"@en ;
+    dct:title "CC BY-NC-ND 4.0"@en ;
+    rdfs:seeAlso <https://creativecommons.org/licenses/by-ns-nd/4.0/> ;
+    dct:description "This licence is the most restrictive of the six Creative Commons licences, only allowing others to download the licensed works and share them with others as long as they attribute the creator as specified in the licence, but users cannot change the work in any way or use it commercially..."@en ;
+
+    # Add the Permission rule to the Policy
+    odrl:permission [
+        rdf:type odrl:Permission ;
+        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
+        odrl:action odrl:reproduce ;
+        odrl:action odrl:distribute ;
+        odrl:action odrl:modify ;
+    ] ;
+
+    odrl:obligation [
+        a odrl:Duty ;
+        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
+        odrl:action odrl:attribution .
+    ] ;
+        
+    odrl:prohibition [
+         a odrl:Prohibition ;
+        odrl:action odrl:derive ;
         odrl:action odrl:commercialUse ;
     ]
     .
