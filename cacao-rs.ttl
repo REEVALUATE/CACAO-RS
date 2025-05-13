@@ -7,44 +7,36 @@
 @prefix cc: <http://creativecommons.org/ns#>
 @base <http://w3id.org/cacao/vocab/license/> .
 
-<cc0-1.0>
+<http://w3id.org/cacao/vocab/license/cc0-1.0>
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons CC0 1.0 Universal Public Domain Dedication"@en ;
     rdfs:seeAlso <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    dct:description "A public domain dedication where the creator waives all copyright and related rights worldwide, allowing copying, modification, distribution, performance, and commercial use without conditions."@en ;
-    # Grants permission for all uses under CC0 terms.
     odrl:permission [
         rdf:type odrl:Permission ;
         odrl:action odrl:use ;
-        rdfs:comment "Grants permission for all uses permitted by copyright and related rights laws, effectively waiving those rights under the terms of CC0 1.0 Universal."@en
     ] .
 
-<pdm>
+<http://w3id.org/cacao/vocab/license/pdm>
     rdf:type odrl:Policy ;
     rdfs:label "Public Domain Mark 1.0"@en ;
     rdfs:seeAlso <https://creativecommons.org/publicdomain/mark/1.0/> ;
-    dct:description "Indicates that a work is identified as being free of known copyright restrictions worldwide and therefore in the public domain"@en ;
-    rdfs:comment "This ODRL Policy represents the Public Domain Mark 1.0. It includes an explicit permission for odrl:use to reflect the unrestricted usability of works correctly marked as being in the public domain worldwide."@en ;
 
     # Explicitly state permission for 'use' to reflect the consequence
     # of the work being in the public domain, as indicated by PDM.
     odrl:permission [
         rdf:type odrl:Permission ;
         odrl:action odrl:use ;
-        rdfs:comment "Reflects the permission to use the work freely, which results from the work being identified by PDM as free of known copyright restrictions."@en
     ] .
 
-<cc-by-4.0>
+<http://w3id.org/cacao/vocab/license/cc-by-4.0>
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons Attribution 4.0 International"@en ;
     dct:title "CC BY 4.0"@en ;
     rdfs:seeAlso <https://creativecommons.org/licenses/by/4.0/> ;
-    dct:description "This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation..."@en ;
 
     # Add the Permission rule to the Policy
     odrl:permission [
         rdf:type odrl:Permission ;
-        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
         odrl:action odrl:reproduce ;
         odrl:action odrl:distribute ;
         odrl:action odrl:modify ;
@@ -54,22 +46,19 @@
 
     odrl:obligation [
         a odrl:Duty ;
-        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
         odrl:action odrl:attribution .
     ] .
 
 
-<cc-by-sa-4.0>
+<http://w3id.org/cacao/vocab/license/cc-by-sa-4.0>
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons Attribution, ShareAlike 4.0 International"@en ;
     dct:title "CC BY-SA 4.0"@en ;
     rdfs:seeAlso <https://creativecommons.org/licenses/by-sa/4.0/> ;
-    dct:description "This license lets others distribute, remix, adapt, and build upon your work, even commercially, as long as they credit you for the original creation..."@en ;
 
     # Add the Permission rule to the Policy
     odrl:permission [
         rdf:type odrl:Permission ;
-        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
         odrl:action odrl:reproduce ;
         odrl:action odrl:distribute ;
         odrl:action odrl:modify ;
@@ -79,24 +68,21 @@
 
     odrl:obligation [
         a odrl:Duty ;
-        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
         odrl:action odrl:attribution .
         odrl:action cc:Notice .
     ] 
     .
 
 
-<cc-by-nd-4.0>
+<http://w3id.org/cacao/vocab/license/cc-by-nd-4.0>
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons Attribution, No Derivatives 4.0 International"@en ;
     dct:title "CC BY-ND 4.0"@en ;
     rdfs:seeAlso <https://creativecommons.org/licenses/by-nd/4.0/> ;
-    dct:description "This license lets others redistribute the work, and to make commercial and non-commercial use of the work as long as no alteration is made to the work and the creator is attributed according to the specifications of the licence..."@en ;
 
     # Add the Permission rule to the Policy
     odrl:permission [
         rdf:type odrl:Permission ;
-        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
         odrl:action odrl:reproduce ;
         odrl:action odrl:distribute ;
         odrl:action odrl:modify ;
@@ -105,7 +91,6 @@
 
     odrl:obligation [
         a odrl:Duty ;
-        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
         odrl:action odrl:attribution .
     ] ;
 
@@ -116,17 +101,15 @@
     ]
     .
 
-<cc-by-nc-4.0>
+<http://w3id.org/cacao/vocab/license/cc-by-nc-4.0>
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons Attribution, Non-Commercial 4.0 International"@en ;
     dct:title "CC BY-NC 4.0"@en ;
     rdfs:seeAlso <https://creativecommons.org/licenses/by-nc/4.0/> ;
-    dct:description "This licence lets others remix, tweak, and build upon the licensed work for non-commercial use. Any new works created and based on your work must be attributed to the creator as specified in the licence, and may be available for non-commercial use only..."@en ;
 
     # Add the Permission rule to the Policy
     odrl:permission [
         rdf:type odrl:Permission ;
-        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
         odrl:action odrl:reproduce ;
         odrl:action odrl:distribute ;
         odrl:action odrl:modify ;
@@ -135,7 +118,6 @@
 
     odrl:obligation [
         a odrl:Duty ;
-        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
         odrl:action odrl:attribution .
     ] ;
         
@@ -145,17 +127,15 @@
     ]
     .
 
-<cc-by-nc-sa-4.0>
+<http://w3id.org/cacao/vocab/license/cc-by-nc-sa-4.0>
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons Attribution, Non-Commercial, ShareAlike 4.0 International"@en ;
     dct:title "CC BY-NC-SA 4.0"@en ;
     rdfs:seeAlso <https://creativecommons.org/licenses/by-ns-sa/4.0/> ;
-    dct:description "This licence lets others remix, tweak, and build upon the licensed work for non-commercial use as long as they attribute the creator of the work under the terms specified in the licence, and licence new creations under identical terms..."@en ;
 
     # Add the Permission rule to the Policy
     odrl:permission [
         rdf:type odrl:Permission ;
-        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
         odrl:action odrl:reproduce ;
         odrl:action odrl:distribute ;
         odrl:action odrl:modify ;
@@ -164,7 +144,6 @@
 
     odrl:obligation [
         a odrl:Duty ;
-        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
         odrl:action odrl:attribution .
         odrl:action cc:Notice .
     ] ;
@@ -175,17 +154,15 @@
     ]
     .
 
-<cc-by-nc-nd-4.0>
+<http://w3id.org/cacao/vocab/license/cc-by-nc-nd-4.0>
     rdf:type odrl:Policy ;
     rdfs:label "Creative Commons Attribution, Non-Commercial, No Derivatives 4.0 International"@en ;
     dct:title "CC BY-NC-ND 4.0"@en ;
     rdfs:seeAlso <https://creativecommons.org/licenses/by-ns-nd/4.0/> ;
-    dct:description "This licence is the most restrictive of the six Creative Commons licences, only allowing others to download the licensed works and share them with others as long as they attribute the creator as specified in the licence, but users cannot change the work in any way or use it commercially..."@en ;
 
     # Add the Permission rule to the Policy
     odrl:permission [
         rdf:type odrl:Permission ;
-        dct:description "You are free to: Share — copy and redistribute the material... Adapt — remix, transform, and build upon the material..."@en ;
         odrl:action odrl:reproduce ;
         odrl:action odrl:distribute ;
         odrl:action odrl:modify ;
@@ -193,7 +170,6 @@
 
     odrl:obligation [
         a odrl:Duty ;
-        dct:description "Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use."@en ;
         odrl:action odrl:attribution .
     ] ;
         
