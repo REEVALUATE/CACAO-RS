@@ -71,7 +71,7 @@ if __name__ == "__main__":
         
         # create URI for the license
         subject_uri = CACAO_RULE_NS[safe_license_folder]
-        g.add((subject_uri, RDF.type, CACAO_RULE_NS.Rule))
+        g.add((subject_uri, RDF.type, ODRL.Policy))
         
         # create blankenodes for permission, obligation, and prohibition
         permission_bnode = rdflib.BNode()

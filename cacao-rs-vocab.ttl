@@ -2,7 +2,7 @@
 @prefix cc: <http://creativecommons.org/ns#> .
 @prefix odrl: <http://www.w3.org/ns/odrl/2/> .
 
-cacao_license:CC-BY-NC-ND_4.0 a cacao_license:Rule ;
+cacao_license:CC-BY-NC-ND_4.0 a odrl:Policy ;
     odrl:obligation [ odrl:action cc:Attribution,
                 cc:CommercialUse,
                 cc:DerivativeWorks,
@@ -71,7 +71,7 @@ cacao_license:CC-BY-NC-ND_4.0 a cacao_license:Rule ;
                 odrl:use,
                 odrl:watermark ] .
 
-cacao_license:CC-BY-NC-SA_4.0 a cacao_license:Rule ;
+cacao_license:CC-BY-NC-SA_4.0 a odrl:Policy ;
     odrl:obligation [ odrl:action cc:Attribution,
                 cc:Notice,
                 cc:ShareAlike,
@@ -119,7 +119,7 @@ cacao_license:CC-BY-NC-SA_4.0 a cacao_license:Rule ;
                 odrl:nextPolicy,
                 odrl:sell ] .
 
-cacao_license:CC-BY-NC_4.0 a cacao_license:Rule ;
+cacao_license:CC-BY-NC_4.0 a odrl:Policy ;
     odrl:obligation [ odrl:action cc:Attribution,
                 cc:Notice,
                 odrl:attribute,
@@ -163,7 +163,7 @@ cacao_license:CC-BY-NC_4.0 a cacao_license:Rule ;
                 odrl:sell,
                 odrl:watermark ] .
 
-cacao_license:CC-BY-ND_4.0 a cacao_license:Rule ;
+cacao_license:CC-BY-ND_4.0 a odrl:Policy ;
     odrl:obligation [ odrl:action cc:Attribution,
                 cc:Notice,
                 odrl:attribute,
@@ -208,12 +208,12 @@ cacao_license:CC-BY-ND_4.0 a cacao_license:Rule ;
                 odrl:translate,
                 odrl:watermark ] .
 
-cacao_license:CC-BY-SA_4.0 a cacao_license:Rule ;
+cacao_license:CC-BY-SA_4.0 a odrl:Policy ;
     odrl:obligation [ ] ;
     odrl:permission [ ] ;
     odrl:prohibition [ ] .
 
-cacao_license:CC-BY_4.0 a cacao_license:Rule ;
+cacao_license:CC-BY_4.0 a odrl:Policy ;
     odrl:obligation [ odrl:action cc:Attribution,
                 cc:Notice,
                 odrl:attribute,
@@ -259,7 +259,7 @@ cacao_license:CC-BY_4.0 a cacao_license:Rule ;
                 odrl:nextPolicy,
                 odrl:watermark ] .
 
-cacao_license:CC0_1.0 a cacao_license:Rule ;
+cacao_license:CC0_1.0 a odrl:Policy ;
     odrl:obligation [ ] ;
     odrl:permission [ odrl:action cc:CommercialUse,
                 cc:DerivativeWorks,
@@ -305,7 +305,7 @@ cacao_license:CC0_1.0 a cacao_license:Rule ;
                 odrl:watermark ] ;
     odrl:prohibition [ odrl:action odrl:ensureExclusivity ] .
 
-cacao_license:PDM a cacao_license:Rule ;
+cacao_license:PDM a odrl:Policy ;
     odrl:obligation [ ] ;
     odrl:permission [ odrl:action cc:CommercialUse,
                 cc:DerivativeWorks,
