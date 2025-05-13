@@ -36,7 +36,7 @@ Permissions	print	http://www.w3.org/ns/odrl/2/print	YES	A work in the public dom
 Permissions	read	http://www.w3.org/ns/odrl/2/read	YES	A work in the public domain can be read without copyright restriction.
 Permissions	reproduce	http://www.w3.org/ns/odrl/2/reproduce	YES	A work in the public domain can be reproduced (copied) without copyright restriction.
 Permissions	reproduction	http://creativecommons.org/ns#Reproduction	YES	Synonymous with 'reproduce'. Works in the public domain can be reproduced.
-Permissions	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	The PDM is not a policy to be reviewed by the user in terms of their use rights	 it's a statement about the work's status.
+Permissions	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	The PDM is not a policy to be reviewed by the user in terms of their use rights it's a statement about the work's status.
 Permissions	sell	http://www.w3.org/ns/odrl/2/sell	YES	A public domain work, or copies of it, can be sold. The copyright status does not prevent selling the work or a product incorporating it.
 Permissions	share Alike	http://creativecommons.org/ns#ShareAlike	NO	PDM signifies public domain. There is no ShareAlike condition, as that is a specific license term for copyrighted works.
 Permissions	sharing	http://creativecommons.org/ns#Sharing	YES	Works in the public domain can be shared without copyright restriction.
