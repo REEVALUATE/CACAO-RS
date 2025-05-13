@@ -1,0 +1,151 @@
+Section;Action;URI;Applicable;Reasoning
+permission;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;The license does not govern the use of tracking technologies this is a privacy consideration outside the scope of copyright licensing.
+permission;aggregate;http://www.w3.org/ns/odrl/2/aggregate;YES;Permitted if the work is included verbatim in a non-commercial collection and attribution is given. Aggregation must not create a derivative work.
+permission;annotate;http://www.w3.org/ns/odrl/2/annotate;YES;Making annotations for personal non-commercial use is permitted. Distributing annotations separately that do not modify or create a derivative of the core work is also permitted. Distributing the work with embedded annotations that form a derivative is not.
+permission;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;Anonymizing the material would create a derivative which cannot be distributed under the NoDerivatives clause. Personal non-commercial anonymization is allowed but not for sharing.
+permission;archive;http://www.w3.org/ns/odrl/2/archive;YES;Permitted to make copies for personal archiving or for non-commercial verbatim redistribution.
+permission;attribute;http://www.w3.org/ns/odrl/2/attribute;NO;This is an obligation for the licensee not a permission granted to them to define attribution.
+permission;attribution;http://creativecommons.org/ns#Attribution;NO;This is an obligation (BY condition) not a permission for the licensee to perform.
+permission;commercial use;http://creativecommons.org/ns#CommercialUse;NO;Explicitly not permitted by the NonCommercial (NC) clause.
+permission;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;The license does not grant the licensee a right to be compensated nor does it require the licensor to compensate the licensee. CC licenses are royalty-free.
+permission;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;YES;The license does not restrict simultaneous use by multiple users as long as terms are met.
+permission;delete;http://www.w3.org/ns/odrl/2/delete;YES;The licensee is free to delete their own copies of the material.
+permission;derivative works;http://creativecommons.org/ns#DerivativeWorks;NO;The NoDerivatives (ND) clause prohibits the distribution of derivative works. Creation for personal non-commercial use is allowed but not sharing.
+permission;derive;http://www.w3.org/ns/odrl/2/derive;NO;Creating derivatives for personal non-commercial use is allowed but they cannot be distributed under the NoDerivatives (ND) clause.
+permission;digitize;http://www.w3.org/ns/odrl/2/digitize;YES;Permitted as a technical modification necessary to exercise rights provided the resulting digital copy is shared verbatim and non-commercially.
+permission;display;http://www.w3.org/ns/odrl/2/display;YES;Permitted as part of sharing the work non-commercially and verbatim.
+permission;distribute;http://www.w3.org/ns/odrl/2/distribute;YES;Permitted for non-commercial purposes provided the material is shared verbatim and with attribution.
+permission;distribution;http://creativecommons.org/ns#Distribution;YES;Permitted for non-commercial purposes provided the material is shared verbatim and with attribution (CC specific action).
+permission;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;NO;The license is non-exclusive the licensee cannot claim or ensure exclusivity.
+permission;execute;http://www.w3.org/ns/odrl/2/execute;YES;If the material is software or similar executing it for non-commercial purposes is permitted.
+permission;extract;http://www.w3.org/ns/odrl/2/extract;YES;Extracting portions of the work verbatim for non-commercial use is permitted.
+permission;give;http://www.w3.org/ns/odrl/2/give;YES;Permitted as a form of non-commercial verbatim redistribution.
+permission;grant use;http://www.w3.org/ns/odrl/2/grantUse;NO;The licensee cannot sublicense or grant use to others under different terms they must pass on the work with the original license.
+permission;include;http://www.w3.org/ns/odrl/2/include;YES;Permitted if the work is included verbatim in a larger non-commercial collection and attribution is given.
+permission;index;http://www.w3.org/ns/odrl/2/index;YES;Indexing the work for personal use or creating a publicly available index (that does not modify the work itself) is permitted.
+permission;inform;http://www.w3.org/ns/odrl/2/inform;NO;This is generally an obligation for the licensee (e.g. provide license information) not a permission they exercise.
+permission;install;http://www.w3.org/ns/odrl/2/install;YES;If the material is software installing it for non-commercial use is permitted.
+permission;modify;http://www.w3.org/ns/odrl/2/modify;NO;Modifications (Adapted Material) can be created for personal non-commercial purposes but cannot be Shared (distributed) under the NoDerivatives (ND) clause.
+permission;move;http://www.w3.org/ns/odrl/2/move;YES;The licensee can move their copies of the material.
+permission;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;NO;The licensee is not permitted to apply a subsequent or different policy to the material.
+permission;notice;http://creativecommons.org/ns#Notice;NO;This is an obligation (to retain notices and provide attribution).
+permission;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;The license does not grant the licensee the right to obtain consent from others on behalf of the licensor.
+permission;play;http://www.w3.org/ns/odrl/2/play;YES;If the material is audio/video playing it for non-commercial purposes is permitted.
+permission;present;http://www.w3.org/ns/odrl/2/present;YES;Permitted as a form of public display or performance for non-commercial purposes verbatim.
+permission;print;http://www.w3.org/ns/odrl/2/print;YES;Making verbatim printed copies for non-commercial use or redistribution is permitted.
+permission;read;http://www.w3.org/ns/odrl/2/read;YES;Basic permission to access and read the material.
+permission;reproduce;http://www.w3.org/ns/odrl/2/reproduce;YES;Permitted for non-commercial purposes provided the material is reproduced verbatim and with attribution.
+permission;reproduction;http://creativecommons.org/ns#Reproduction;YES;Permitted for non-commercial purposes provided the material is reproduced verbatim and with attribution (CC specific action).
+permission;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;Not a specific permission granted by the license compliance is expected.
+permission;sell;http://www.w3.org/ns/odrl/2/sell;NO;Selling is a commercial use not permitted by the NonCommercial (NC) clause.
+permission;share Alike;http://creativecommons.org/ns#ShareAlike;NO;The NoDerivatives (ND) clause prevents sharing of derivatives so ShareAlike terms are not applicable.
+permission;sharing;http://creativecommons.org/ns#Sharing;YES;Permitted for non-commercial purposes provided the material is shared verbatim and with attribution (CC specific action).
+permission;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;The license does not grant a right to obtain source code if not provided by the licensor.
+permission;stream;http://www.w3.org/ns/odrl/2/stream;YES;If the material is audio/video streaming it non-commercially and verbatim is permitted.
+permission;synchronize;http://www.w3.org/ns/odrl/2/synchronize;NO;Synchronizing media (e.g. music to video) often creates a derivative which cannot be distributed under the NoDerivatives (ND) clause. Personal non-commercial use is allowed.
+permission;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;YES;Using text-to-speech for personal access is permitted as a technical modification. Distributing the TTS output if it constitutes a derivative is not allowed.
+permission;transform;http://www.w3.org/ns/odrl/2/transform;NO;Transformations create derivative works which cannot be distributed under the NoDerivatives (ND) clause. Personal non-commercial use is allowed.
+permission;translate;http://www.w3.org/ns/odrl/2/translate;NO;Translations are derivative works and cannot be distributed under the NoDerivatives (ND) clause. Personal non-commercial use is allowed.
+permission;uninstall;http://www.w3.org/ns/odrl/2/uninstall;YES;If the material is software the licensee can uninstall it.
+permission;use;http://www.w3.org/ns/odrl/2/use;YES;General permission to use the material non-commercially verbatim and with attribution as per the license terms.
+permission;watermark;http://www.w3.org/ns/odrl/2/watermark;NO;Licensee is not permitted to add new watermarks when distributing as it may be seen as a modification or an additional restriction.
+prohibition;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;The license does not prohibit accepting tracking this is user choice.
+prohibition;aggregate;http://www.w3.org/ns/odrl/2/aggregate;NO;Aggregation under license terms (verbatim non-commercial) is permitted.
+prohibition;annotate;http://www.w3.org/ns/odrl/2/annotate;YES;Distribution of the work with embedded annotations that form a derivative is prohibited. Personal annotation is not.
+prohibition;anonymize;http://www.w3.org/ns/odrl/2/anonymize;YES;Distributing an anonymized (modified) version of the material is prohibited by the NoDerivatives clause.
+prohibition;archive;http://www.w3.org/ns/odrl/2/archive;NO;Archiving under license terms is permitted.
+prohibition;attribute;http://www.w3.org/ns/odrl/2/attribute;NO;Failing to attribute is prohibited (it is an obligation). False attribution is implicitly prohibited.
+prohibition;attribution;http://creativecommons.org/ns#Attribution;NO;Failing to provide attribution is prohibited (it is an obligation).
+prohibition;commercial use;http://creativecommons.org/ns#CommercialUse;YES;Use of the material for commercial purposes is prohibited by the NonCommercial (NC) clause.
+prohibition;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;The license does not prohibit voluntary compensation it prohibits commercial exploitation.
+prohibition;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;NO;Concurrent use under license terms is permitted.
+prohibition;delete;http://www.w3.org/ns/odrl/2/delete;NO;Deleting own copies is permitted.
+prohibition;derivative works;http://creativecommons.org/ns#DerivativeWorks;YES;Distribution of derivative works is prohibited by the NoDerivatives (ND) clause.
+prohibition;derive;http://www.w3.org/ns/odrl/2/derive;YES;Distribution of derived material is prohibited by the NoDerivatives (ND) clause.
+prohibition;digitize;http://www.w3.org/ns/odrl/2/digitize;NO;Digitizing under license terms is permitted.
+prohibition;display;http://www.w3.org/ns/odrl/2/display;NO;Display under license terms (non-commercial verbatim) is permitted.
+prohibition;distribute;http://www.w3.org/ns/odrl/2/distribute;YES;Distribution that is commercial or of derivative works or without attribution is prohibited. Verbatim non-commercial distribution is permitted.
+prohibition;distribution;http://creativecommons.org/ns#Distribution;YES;Distribution that is commercial or of derivative works or without attribution is prohibited (CC specific action). Verbatim non-commercial distribution is permitted.
+prohibition;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;YES;The licensee is prohibited from claiming or trying to ensure exclusivity over the material.
+prohibition;execute;http://www.w3.org/ns/odrl/2/execute;NO;Execution under license terms (non-commercial) is permitted.
+prohibition;extract;http://www.w3.org/ns/odrl/2/extract;NO;Extraction under license terms (verbatim non-commercial) is permitted.
+prohibition;give;http://www.w3.org/ns/odrl/2/give;NO;Giving (redistributing non-commercially verbatim) is permitted.
+prohibition;grant use;http://www.w3.org/ns/odrl/2/grantUse;YES;Sublicensing or granting use under terms different from the original license is prohibited.
+prohibition;include;http://www.w3.org/ns/odrl/2/include;NO;Inclusion under license terms (verbatim non-commercial) is permitted.
+prohibition;index;http://www.w3.org/ns/odrl/2/index;NO;Indexing under license terms is permitted.
+prohibition;inform;http://www.w3.org/ns/odrl/2/inform;NO;Failing to provide required license information might be prohibited (it is an obligation).
+prohibition;install;http://www.w3.org/ns/odrl/2/install;NO;Installation under license terms (non-commercial) is permitted.
+prohibition;modify;http://www.w3.org/ns/odrl/2/modify;YES;Distribution of modified material is prohibited by the NoDerivatives (ND) clause.
+prohibition;move;http://www.w3.org/ns/odrl/2/move;NO;Moving own copies is permitted.
+prohibition;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;YES;Applying additional or different terms or technological measures that restrict others is prohibited.
+prohibition;notice;http://creativecommons.org/ns#Notice;YES;Removing or altering required notices (copyright license attribution) is prohibited.
+prohibition;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;The license does not directly prohibit this action in a general sense.
+prohibition;play;http://www.w3.org/ns/odrl/2/play;NO;Playing under license terms (non-commercial) is permitted.
+prohibition;present;http://www.w3.org/ns/odrl/2/present;NO;Presenting under license terms (non-commercial verbatim) is permitted.
+prohibition;print;http://www.w3.org/ns/odrl/2/print;NO;Printing under license terms (verbatim non-commercial) is permitted.
+prohibition;read;http://www.w3.org/ns/odrl/2/read;NO;Reading is permitted.
+prohibition;reproduce;http://www.w3.org/ns/odrl/2/reproduce;YES;Reproduction for commercial purposes or of derivative works (for distribution) is prohibited. Verbatim non-commercial reproduction is permitted.
+prohibition;reproduction;http://creativecommons.org/ns#Reproduction;YES;Reproduction for commercial purposes or of derivative works (for distribution) is prohibited (CC specific action). Verbatim non-commercial reproduction is permitted.
+prohibition;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;Not applicable as a prohibition.
+prohibition;sell;http://www.w3.org/ns/odrl/2/sell;YES;Selling the material is prohibited as it constitutes commercial use under the NonCommercial (NC) clause.
+prohibition;share Alike;http://creativecommons.org/ns#ShareAlike;YES;Applying ShareAlike terms is prohibited as no derivatives can be distributed.
+prohibition;sharing;http://creativecommons.org/ns#Sharing;YES;Sharing for commercial purposes or of derivative works or without attribution is prohibited (CC specific action). Verbatim non-commercial sharing is permitted.
+prohibition;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;The license does not prohibit obtaining source code if it is made available.
+prohibition;stream;http://www.w3.org/ns/odrl/2/stream;NO;Streaming under license terms (non-commercial verbatim) is permitted.
+prohibition;synchronize;http://www.w3.org/ns/odrl/2/synchronize;YES;Distribution of synchronized material if it constitutes a derivative is prohibited by the NoDerivatives (ND) clause.
+prohibition;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;YES;Distribution of TTS output if it constitutes a derivative is prohibited. Personal use is permitted.
+prohibition;transform;http://www.w3.org/ns/odrl/2/transform;YES;Distribution of transformed material is prohibited by the NoDerivatives (ND) clause.
+prohibition;translate;http://www.w3.org/ns/odrl/2/translate;YES;Distribution of translated material (a derivative) is prohibited by the NoDerivatives (ND) clause.
+prohibition;uninstall;http://www.w3.org/ns/odrl/2/uninstall;NO;Uninstalling is permitted.
+prohibition;use;http://www.w3.org/ns/odrl/2/use;YES;Use of the material in any way that violates the license terms (e.g. commercial use distribution of derivatives adding restrictions) is prohibited.
+prohibition;watermark;http://www.w3.org/ns/odrl/2/watermark;YES;Applying new watermarks when distributing if they act as technological measures or imply altered terms is prohibited. Removing licensor-applied watermarks forming part of attribution or notices might also be prohibited.
+obligation;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;No obligation under the license regarding tracking technologies.
+obligation;aggregate;http://www.w3.org/ns/odrl/2/aggregate;NO;This is a permission not an obligation.
+obligation;annotate;http://www.w3.org/ns/odrl/2/annotate;NO;This is a permission for personal use not an obligation.
+obligation;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;This is generally prohibited for distribution. No obligation to anonymize.
+obligation;archive;http://www.w3.org/ns/odrl/2/archive;NO;This is a permission not an obligation.
+obligation;attribute;http://www.w3.org/ns/odrl/2/attribute;YES;Licensee is obligated to provide appropriate credit to the creator as per the Attribution (BY) clause.
+obligation;attribution;http://creativecommons.org/ns#Attribution;YES;Licensee is obligated to provide attribution as specified by the BY clause (CC specific action). This includes giving appropriate credit providing a link to the license and indicating if changes were made (even if not shared).
+obligation;commercial use;http://creativecommons.org/ns#CommercialUse;YES;Licensee is obligated to refrain from using the material for commercial purposes as per the NonCommercial (NC) clause.
+obligation;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;No obligation to compensate the licensor as CC licenses are royalty-free.
+obligation;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;NO;Not an obligation.
+obligation;delete;http://www.w3.org/ns/odrl/2/delete;NO;No obligation to delete material unless other legal grounds exist.
+obligation;derivative works;http://creativecommons.org/ns#DerivativeWorks;YES;Licensee is obligated to refrain from distributing derivative works as per the NoDerivatives (ND) clause.
+obligation;derive;http://www.w3.org/ns/odrl/2/derive;YES;Licensee is obligated to refrain from distributing derived material as per the NoDerivatives (ND) clause.
+obligation;digitize;http://www.w3.org/ns/odrl/2/digitize;NO;This is a permission not an obligation.
+obligation;display;http://www.w3.org/ns/odrl/2/display;NO;This is a permission not an obligation.
+obligation;distribute;http://www.w3.org/ns/odrl/2/distribute;NO;This is a permission not an obligation. Compliance with terms (attribution NC ND) is an obligation when distributing.
+obligation;distribution;http://creativecommons.org/ns#Distribution;NO;This is a permission not an obligation (CC specific action). Compliance with terms is an obligation when distributing.
+obligation;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;YES;Licensee is obligated to refrain from claiming or ensuring exclusivity.
+obligation;execute;http://www.w3.org/ns/odrl/2/execute;NO;This is a permission not an obligation.
+obligation;extract;http://www.w3.org/ns/odrl/2/extract;NO;This is a permission not an obligation.
+obligation;give;http://www.w3.org/ns/odrl/2/give;NO;This is a permission not an obligation.
+obligation;grant use;http://www.w3.org/ns/odrl/2/grantUse;YES;Licensee is obligated to refrain from sublicensing or granting use under different terms. They must pass on the work with the original license if they share it.
+obligation;include;http://www.w3.org/ns/odrl/2/include;NO;This is a permission not an obligation.
+obligation;index;http://www.w3.org/ns/odrl/2/index;NO;This is a permission not an obligation.
+obligation;inform;http://www.w3.org/ns/odrl/2/inform;YES;Licensee is obligated to provide specific information when sharing the material including a notice referring to the license URI to the material and details of attribution.
+obligation;install;http://www.w3.org/ns/odrl/2/install;NO;This is a permission not an obligation.
+obligation;modify;http://www.w3.org/ns/odrl/2/modify;YES;Licensee is obligated to refrain from distributing modified material as per the NoDerivatives (ND) clause. Obligation to indicate if changes were made applies to attribution even for personal modifications.
+obligation;move;http://www.w3.org/ns/odrl/2/move;NO;This is a permission not an obligation.
+obligation;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;YES;Licensee is obligated to refrain from applying additional or different terms or technological measures that restrict others exercise of the licensed rights.
+obligation;notice;http://creativecommons.org/ns#Notice;YES;Licensee is obligated to retain copyright notices license notices disclaimer notices and attribution notices supplied with the material (CC specific action).
+obligation;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;Generally no obligation for the licensee to obtain consent from others related to the licensed material itself.
+obligation;play;http://www.w3.org/ns/odrl/2/play;NO;This is a permission not an obligation.
+obligation;present;http://www.w3.org/ns/odrl/2/present;NO;This is a permission not an obligation.
+obligation;print;http://www.w3.org/ns/odrl/2/print;NO;This is a permission not an obligation.
+obligation;read;http://www.w3.org/ns/odrl/2/read;NO;This is a permission not an obligation.
+obligation;reproduce;http://www.w3.org/ns/odrl/2/reproduce;NO;This is a permission not an obligation. Compliance with terms is an obligation when reproducing.
+obligation;reproduction;http://creativecommons.org/ns#Reproduction;NO;This is a permission not an obligation (CC specific action). Compliance with terms is an obligation when reproducing.
+obligation;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;No explicit obligation to review policy but compliance implicitly requires understanding it.
+obligation;sell;http://www.w3.org/ns/odrl/2/sell;YES;Licensee is obligated to refrain from selling the material as per the NonCommercial (NC) clause.
+obligation;share Alike;http://creativecommons.org/ns#ShareAlike;YES;Licensee is obligated to refrain from distributing derivatives under ShareAlike or any other terms due to the NoDerivatives (ND) clause.
+obligation;sharing;http://creativecommons.org/ns#Sharing;NO;This is a permission not an obligation (CC specific action). Compliance with terms is an obligation when sharing.
+obligation;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;No obligation for the licensee regarding obtaining or providing source code under this license.
+obligation;stream;http://www.w3.org/ns/odrl/2/stream;NO;This is a permission not an obligation.
+obligation;synchronize;http://www.w3.org/ns/odrl/2/synchronize;YES;Licensee is obligated to refrain from distributing synchronized material if it constitutes a derivative as per the NoDerivatives (ND) clause.
+obligation;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;NO;This is a permission for personal use not an obligation.
+obligation;transform;http://www.w3.org/ns/odrl/2/transform;YES;Licensee is obligated to refrain from distributing transformed material as per the NoDerivatives (ND) clause.
+obligation;translate;http://www.w3.org/ns/odrl/2/translate;YES;Licensee is obligated to refrain from distributing translations (derivatives) as per the NoDerivatives (ND) clause.
+obligation;uninstall;http://www.w3.org/ns/odrl/2/uninstall;NO;This is a permission not an obligation.
+obligation;use;http://www.w3.org/ns/odrl/2/use;YES;Licensee is obligated to use the material strictly in accordance with all license terms (Attribution NonCommercial NoDerivatives).
+obligation;watermark;http://www.w3.org/ns/odrl/2/watermark;NO;No general obligation to add or remove watermarks unless a watermark is part of a required notice to be retained.

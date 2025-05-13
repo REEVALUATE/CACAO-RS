@@ -1,0 +1,151 @@
+Section;Action;URI;Applicable;Reasoning
+Permissions;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;The license does not explicitly grant permission to accept tracking. This is generally outside the scope of copyright licenses.
+Permissions;aggregate;http://www.w3.org/ns/odrl/2/aggregate;YES;The license allows adapting and remixing which can include aggregation as long as it's non-commercial and attribution is given.
+Permissions;annotate;http://www.w3.org/ns/odrl/2/annotate;YES;Annotation is a form of adaptation/modification which is permitted for non-commercial use with attribution.
+Permissions;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;The license focuses on the rights to the work itself not explicitly on anonymizing data within or related to the work. While not prohibited if other laws allow it it's not a granted permission by this license.
+Permissions;archive;http://www.w3.org/ns/odrl/2/archive;YES;Archiving is a form of copying and redistributing which is permitted for non-commercial purposes.
+Permissions;attribute;http://www.w3.org/ns/odrl/2/attribute;YES;While the license *requires* attribution from the licensee it implies the licensor has granted the right for the work to be attributed in a certain way. However this action is more about *requiring* attribution rather than *permitting* someone to attribute. For the context of permissions granted to the user this isn't directly applicable as a freedom.
+Permissions;attribution;http://creativecommons.org/ns#Attribution;NO;This is a condition/obligation of the license not a permission granted to the user. The user is permitted to use the work *if* they provide attribution.
+Permissions;commercial use;http://creativecommons.org/ns#CommercialUse;NO;The license explicitly prohibits commercial use.
+Permissions;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;The license is royalty-free. No compensation is required or explicitly permitted in a way that forms part of the license grant.
+Permissions;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;YES;The license does not restrict the number of users who can use the work simultaneously according to the license terms.
+Permissions;delete;http://www.w3.org/ns/odrl/2/delete;NO;The license grants rights to use the work not to delete the original or other copies. Deletion of one's own copy is a general right not a specific permission granted by the license.
+Permissions;derivative works;http://creativecommons.org/ns#DerivativeWorks;YES;The license explicitly permits creating adapted material (derivative works) for non-commercial purposes.
+Permissions;derive;http://www.w3.org/ns/odrl/2/derive;YES;The license allows users to remix transform and build upon the material meaning they can derive new works from it for non-commercial purposes.
+Permissions;digitize;http://www.w3.org/ns/odrl/2/digitize;YES;If the material is not yet digital digitizing it would be a necessary step for many permitted uses like copying sharing and adapting in a digital format for non-commercial purposes.
+Permissions;display;http://www.w3.org/ns/odrl/2/display;YES;Sharing and redistributing the material for non-commercial purposes implies the right to display it.
+Permissions;distribute;http://www.w3.org/ns/odrl/2/distribute;YES;The license explicitly allows redistributing the material in any medium or format for non-commercial purposes.
+Permissions;distribution;http://creativecommons.org/ns#Distribution;YES;The license explicitly allows redistribution (sharing) of the material for non-commercial purposes.
+Permissions;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;NO;The license is non-exclusive. The licensor can grant other licenses and the licensee cannot claim exclusivity.
+Permissions;execute;http://www.w3.org/ns/odrl/2/execute;YES;For software or other executable works covered by the license the permission to use adapt and share implies the permission to execute it for non-commercial purposes.
+Permissions;extract;http://www.w3.org/ns/odrl/2/extract;YES;Extracting parts of the work is a form of adaptation or reproduction which is permitted for non-commercial purposes.
+Permissions;give;http://www.w3.org/ns/odrl/2/give;YES;The license allows redistribution which includes giving copies of the work to others for non-commercial purposes.
+Permissions;grant use;http://www.w3.org/ns/odrl/2/grantUse;NO;The licensee cannot sublicense the work under different terms that are more restrictive than CC BY-NC 4.0 or grant uses outside of what the license permits. They can share the work under the same license.
+Permissions;include;http://www.w3.org/ns/odrl/2/include;YES;Including the work in a larger collection or adaptation is permitted as part of remixing and building upon the material for non-commercial purposes.
+Permissions;index;http://www.w3.org/ns/odrl/2/index;YES;Indexing could be part of adapting or making the work usable which is permitted for non-commercial purposes.
+Permissions;inform;http://www.w3.org/ns/odrl/2/inform;NO;While the license requires providing information (attribution notice link) this ODRL action refers to informing about data processing which is not explicitly granted by the license.
+Permissions;install;http://www.w3.org/ns/odrl/2/install;YES;For software this is implied by the rights to use reproduce and adapt for non-commercial purposes.
+Permissions;modify;http://www.w3.org/ns/odrl/2/modify;YES;The license explicitly allows users to remix transform and build upon the material (i.e. modify it) for non-commercial purposes.
+Permissions;move;http://www.w3.org/ns/odrl/2/move;YES;Moving a copy of the work is a general right associated with possession of a copy and incidental to permitted uses like sharing and adapting.
+Permissions;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;NO;The license does not grant the right to apply a different subsequent policy to the original work other than sharing adaptations under compatible terms if it were a ShareAlike license (which BY-NC is not inherently but this refers to the original work).
+Permissions;notice;http://creativecommons.org/ns#Notice;NO;This is an obligation (to retain notices) not a permission granted to the user.
+Permissions;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;The license itself is the consent from the licensor for the permitted uses. The licensee does not obtain further consent through this license.
+Permissions;play;http://www.w3.org/ns/odrl/2/play;YES;For audiovisual works playing the work is a fundamental way to use it which is permitted for non-commercial purposes.
+Permissions;present;http://www.w3.org/ns/odrl/2/present;YES;Presenting the work (e.g. public performance or display) is a form of sharing and using the work permitted for non-commercial purposes.
+Permissions;print;http://www.w3.org/ns/odrl/2/print;YES;Printing is a form of reproduction which is permitted for non-commercial purposes.
+Permissions;read;http://www.w3.org/ns/odrl/2/read;YES;Reading the work is a fundamental way to use it which is implicitly permitted for non-commercial purposes.
+Permissions;reproduce;http://www.w3.org/ns/odrl/2/reproduce;YES;The license explicitly allows copying (reproducing) the material for non-commercial purposes.
+Permissions;reproduction;http://creativecommons.org/ns#Reproduction;YES;The license explicitly allows reproduction (copying) of the material for non-commercial purposes.
+Permissions;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;The license terms are fixed. There's no mechanism defined for the licensee to review or change the policy.
+Permissions;sell;http://www.w3.org/ns/odrl/2/sell;NO;Selling the work is a commercial activity and is prohibited by the NonCommercial clause.
+Permissions;share Alike;http://creativecommons.org/ns#ShareAlike;NO;This specific license is CC BY-NC not CC BY-NC-SA. There is no general permission or obligation to license adaptations under the same terms although it is often compatible.
+Permissions;sharing;http://creativecommons.org/ns#Sharing;YES;The license explicitly permits sharing (copying and redistributing the material in any medium or format) for non-commercial purposes.
+Permissions;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;The license does not inherently grant a right to access source code unless it was provided as part of the Licensed Material. It is not a general permission like in some software licenses.
+Permissions;stream;http://www.w3.org/ns/odrl/2/stream;YES;Streaming is a form of distributing or performing the work which is permitted for non-commercial purposes.
+Permissions;synchronize;http://www.w3.org/ns/odrl/2/synchronize;YES;For audiovisual works synchronizing with another work (e.g. music to video) is a form of adaptation permitted for non-commercial purposes.
+Permissions;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;YES;Converting text to speech is a form of adaptation or reproduction necessary for accessibility and use which is permitted for non-commercial purposes.
+Permissions;transform;http://www.w3.org/ns/odrl/2/transform;YES;The license explicitly allows users to transform the material as part of adapting it for non-commercial purposes.
+Permissions;translate;http://www.w3.org/ns/odrl/2/translate;YES;Translation is a form of adaptation which is permitted for non-commercial purposes.
+Permissions;uninstall;http://www.w3.org/ns/odrl/2/uninstall;NO;Uninstalling software is a general right of a user related to their own system not a specific permission granted by the copyright license of the software.
+Permissions;use;http://www.w3.org/ns/odrl/2/use;YES;The license grants the right to use the material in various ways (share adapt) for non-commercial purposes.
+Permissions;watermark;http://www.w3.org/ns/odrl/2/watermark;NO;The license does not grant the right to add a new watermark that implies endorsement or misrepresents the source. Removing a watermark might be permissible if it's a technical measure that restricts licensed uses but adding one is not a granted permission.
+Prohibitions;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;The license does not prohibit accepting tracking. This is outside the scope of the license.
+Prohibitions;aggregate;http://www.w3.org/ns/odrl/2/aggregate;NO;Aggregation is permitted for non-commercial use so it's not prohibited.
+Prohibitions;annotate;http://www.w3.org/ns/odrl/2/annotate;NO;Annotation is permitted for non-commercial use so it's not prohibited.
+Prohibitions;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;The license does not prohibit anonymization.
+Prohibitions;archive;http://www.w3.org/ns/odrl/2/archive;NO;Archiving is permitted for non-commercial use so it's not prohibited.
+Prohibitions;attribute;http://www.w3.org/ns/odrl/2/attribute;NO;The license requires attribution it does not prohibit it.
+Prohibitions;attribution;http://creativecommons.org/ns#Attribution;NO;Failing to provide attribution is a violation of a condition leading to termination of rights but the action of 'attribution' itself is not prohibited.
+Prohibitions;commercial use;http://creativecommons.org/ns#CommercialUse;YES;The license explicitly states You may not use the material for commercial purposes.
+Prohibitions;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;The license does not prohibit offering compensation nor does it require it.
+Prohibitions;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;NO;The license does not prohibit concurrent use.
+Prohibitions;delete;http://www.w3.org/ns/odrl/2/delete;NO;The license does not prohibit deleting one's own copy.
+Prohibitions;derivative works;http://creativecommons.org/ns#DerivativeWorks;NO;Creating derivative works is permitted for non-commercial use. Creating them for commercial use is prohibited by the CommercialUse prohibition.
+Prohibitions;derive;http://www.w3.org/ns/odrl/2/derive;NO;Deriving new works is permitted for non-commercial use. Deriving for commercial use is prohibited by the CommercialUse prohibition.
+Prohibitions;digitize;http://www.w3.org/ns/odrl/2/digitize;NO;Digitizing is permitted for non-commercial use.
+Prohibitions;display;http://www.w3.org/ns/odrl/2/display;NO;Displaying is permitted for non-commercial use.
+Prohibitions;distribute;http://www.w3.org/ns/odrl/2/distribute;NO;Distribution is permitted for non-commercial use. Distributing for commercial purposes is prohibited.
+Prohibitions;distribution;http://creativecommons.org/ns#Distribution;NO;Distribution for non-commercial use is permitted. Commercial distribution is prohibited by the CommercialUse prohibition.
+Prohibitions;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;YES;The licensee cannot claim or try to ensure exclusivity as the license is non-exclusive. Also section 2.a.5.b prohibits applying legal terms or technological measures that legally restrict others from doing anything the license permits.
+Prohibitions;execute;http://www.w3.org/ns/odrl/2/execute;NO;Execution is permitted for non-commercial use.
+Prohibitions;extract;http://www.w3.org/ns/odrl/2/extract;NO;Extraction is permitted for non-commercial use.
+Prohibitions;give;http://www.w3.org/ns/odrl/2/give;NO;Giving the work away is permitted for non-commercial use.
+Prohibitions;grant use;http://www.w3.org/ns/odrl/2/grantUse;YES;The licensee cannot grant use under terms different from or more restrictive than CC BY-NC 4.0 except as permitted by the license itself (e.g. if it were ShareAlike for adaptations but it is not). Sublicensing is not permitted.
+Prohibitions;include;http://www.w3.org/ns/odrl/2/include;NO;Inclusion is permitted for non-commercial use.
+Prohibitions;index;http://www.w3.org/ns/odrl/2/index;NO;Indexing is permitted for non-commercial use.
+Prohibitions;inform;http://www.w3.org/ns/odrl/2/inform;NO;The license does not prohibit informing in the ODRL sense.
+Prohibitions;install;http://www.w3.org/ns/odrl/2/install;NO;Installation is permitted for non-commercial use.
+Prohibitions;modify;http://www.w3.org/ns/odrl/2/modify;NO;Modification is permitted for non-commercial use. Modifying for commercial use is prohibited.
+Prohibitions;move;http://www.w3.org/ns/odrl/2/move;NO;The license does not prohibit moving a copy.
+Prohibitions;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;YES;You may not apply legal terms or technological measures (a new policy) that legally restrict others from doing anything the license permits (Section 2.a.5.b).
+Prohibitions;notice;http://creativecommons.org/ns#Notice;NO;Removing required notices is prohibited (Section 3.a.1). But the act of 'notice' itself isn't prohibited.
+Prohibitions;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;The license does not prohibit obtaining consent for uses beyond the license scope.
+Prohibitions;play;http://www.w3.org/ns/odrl/2/play;NO;Playing is permitted for non-commercial use.
+Prohibitions;present;http://www.w3.org/ns/odrl/2/present;NO;Presentation is permitted for non-commercial use.
+Prohibitions;print;http://www.w3.org/ns/odrl/2/print;NO;Printing is permitted for non-commercial use.
+Prohibitions;read;http://www.w3.org/ns/odrl/2/read;NO;Reading is permitted.
+Prohibitions;reproduce;http://www.w3.org/ns/odrl/2/reproduce;NO;Reproduction is permitted for non-commercial use. Commercial reproduction is prohibited.
+Prohibitions;reproduction;http://creativecommons.org/ns#Reproduction;NO;Non-commercial reproduction is permitted. Commercial reproduction is prohibited by the CommercialUse prohibition.
+Prohibitions;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;The license does not prohibit reviewing the policy.
+Prohibitions;sell;http://www.w3.org/ns/odrl/2/sell;YES;Selling is a commercial use and is explicitly prohibited.
+Prohibitions;share Alike;http://creativecommons.org/ns#ShareAlike;NO;The license does not require ShareAlike so not doing so isn't prohibited. Applying a more restrictive license to adaptations that prevents compliance with the original license would be prohibited.
+Prohibitions;sharing;http://creativecommons.org/ns#Sharing;NO;Non-commercial sharing is permitted. Commercial sharing is prohibited by the CommercialUse prohibition.
+Prohibitions;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;The license does not prohibit providing or obtaining source code if it's otherwise available.
+Prohibitions;stream;http://www.w3.org/ns/odrl/2/stream;NO;Streaming is permitted for non-commercial use.
+Prohibitions;synchronize;http://www.w3.org/ns/odrl/2/synchronize;NO;Synchronization is permitted for non-commercial use.
+Prohibitions;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;NO;Text-to-speech is permitted for non-commercial use.
+Prohibitions;transform;http://www.w3.org/ns/odrl/2/transform;NO;Transformation is permitted for non-commercial use. Commercial transformation is prohibited.
+Prohibitions;translate;http://www.w3.org/ns/odrl/2/translate;NO;Translation is permitted for non-commercial use. Commercial translation is prohibited.
+Prohibitions;uninstall;http://www.w3.org/ns/odrl/2/uninstall;NO;The license does not prohibit uninstalling.
+Prohibitions;use;http://www.w3.org/ns/odrl/2/use;NO;Non-commercial use is permitted. Commercial use is prohibited.
+Prohibitions;watermark;http://www.w3.org/ns/odrl/2/watermark;YES;Applying technological measures (which could include certain types of watermarks) that legally restrict others from doing anything the license permits is prohibited (Section 2.a.5.b). Misleading watermarks could also be an issue.
+Obligations;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;The license does not impose an obligation to accept tracking.
+Obligations;aggregate;http://www.w3.org/ns/odrl/2/aggregate;NO;There is no obligation to aggregate material.
+Obligations;annotate;http://www.w3.org/ns/odrl/2/annotate;NO;There is no obligation to annotate. The license requires indicating if changes were made (Section 3.a.1.B).
+Obligations;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;There is no obligation to anonymize under this license.
+Obligations;archive;http://www.w3.org/ns/odrl/2/archive;NO;There is no obligation to archive.
+Obligations;attribute;http://www.w3.org/ns/odrl/2/attribute;YES;The license requires that You must give appropriate credit provide a link to the license and indicate if changes were made (Section 3.a.1).
+Obligations;attribution;http://creativecommons.org/ns#Attribution;YES;This is a core obligation of the license. You must give appropriate credit (Section 3.a).
+Obligations;commercial use;http://creativecommons.org/ns#CommercialUse;NO;This is a prohibition not an obligation. The obligation is to *not* use for commercial purposes.
+Obligations;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;The license is royalty-free there is no obligation to compensate the licensor.
+Obligations;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;NO;There is no obligation regarding concurrent use.
+Obligations;delete;http://www.w3.org/ns/odrl/2/delete;NO;There is no obligation to delete the material.
+Obligations;derivative works;http://creativecommons.org/ns#DerivativeWorks;NO;There is no obligation to create derivative works. If you do create them you must attribute and not use them commercially.
+Obligations;derive;http://www.w3.org/ns/odrl/2/derive;NO;There is no obligation to derive new works.
+Obligations;digitize;http://www.w3.org/ns/odrl/2/digitize;NO;There is no obligation to digitize.
+Obligations;display;http://www.w3.org/ns/odrl/2/display;NO;There is no obligation to display the work.
+Obligations;distribute;http://www.w3.org/ns/odrl/2/distribute;NO;There is no obligation to distribute the work.
+Obligations;distribution;http://creativecommons.org/ns#Distribution;NO;There is no obligation to distribute the work.
+Obligations;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;NO;There is no obligation to ensure exclusivity. In fact you cannot.
+Obligations;execute;http://www.w3.org/ns/odrl/2/execute;NO;There is no obligation to execute the work.
+Obligations;extract;http://www.w3.org/ns/odrl/2/extract;NO;There is no obligation to extract from the work.
+Obligations;give;http://www.w3.org/ns/odrl/2/give;NO;There is no obligation to give the work to others.
+Obligations;grant use;http://www.w3.org/ns/odrl/2/grantUse;NO;There is no obligation to grant use to others beyond what the license allows you to do (i.e. share under the same terms).
+Obligations;include;http://www.w3.org/ns/odrl/2/include;NO;There is no obligation to include the work in other works.
+Obligations;index;http://www.w3.org/ns/odrl/2/index;NO;There is no obligation to index the work.
+Obligations;inform;http://www.w3.org/ns/odrl/2/inform;YES;You must provide a link to the license and indicate if changes were made. This can be seen as a form of informing about the license and modifications (Section 3.a.1).
+Obligations;install;http://www.w3.org/ns/odrl/2/install;NO;There is no obligation to install.
+Obligations;modify;http://www.w3.org/ns/odrl/2/modify;NO;There is no obligation to modify. If you do you must indicate changes.
+Obligations;move;http://www.w3.org/ns/odrl/2/move;NO;There is no obligation to move the work.
+Obligations;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;NO;There is no obligation to define a next policy. You must not apply restrictive terms.
+Obligations;notice;http://creativecommons.org/ns#Notice;YES;You must retain copyright notices a notice that refers to this Public License a notice that refers to the disclaimer of warranties and a URI or hyperlink to the Licensed Material if supplied (Section 3.a.1.A).
+Obligations;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;There is no obligation to obtain consent for the licensed uses as the license itself provides this consent.
+Obligations;play;http://www.w3.org/ns/odrl/2/play;NO;There is no obligation to play the work.
+Obligations;present;http://www.w3.org/ns/odrl/2/present;NO;There is no obligation to present the work.
+Obligations;print;http://www.w3.org/ns/odrl/2/print;NO;There is no obligation to print the work.
+Obligations;read;http://www.w3.org/ns/odrl/2/read;NO;There is no obligation to read the work.
+Obligations;reproduce;http://www.w3.org/ns/odrl/2/reproduce;NO;There is no obligation to reproduce the work.
+Obligations;reproduction;http://creativecommons.org/ns#Reproduction;NO;There is no obligation to reproduce the work.
+Obligations;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;There is no obligation to review the policy.
+Obligations;sell;http://www.w3.org/ns/odrl/2/sell;NO;Selling is prohibited not an obligation.
+Obligations;share Alike;http://creativecommons.org/ns#ShareAlike;NO;This license CC BY-NC 4.0 does not have a ShareAlike requirement.
+Obligations;sharing;http://creativecommons.org/ns#Sharing;NO;There is no obligation to share the work.
+Obligations;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;There is no general obligation to provide source code unless it was part of the original licensed material and necessary for exercising licensed rights in a specific context not covered by the general license text.
+Obligations;stream;http://www.w3.org/ns/odrl/2/stream;NO;There is no obligation to stream the work.
+Obligations;synchronize;http://www.w3.org/ns/odrl/2/synchronize;NO;There is no obligation to synchronize the work.
+Obligations;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;NO;There is no obligation to create a text-to-speech version.
+Obligations;transform;http://www.w3.org/ns/odrl/2/transform;NO;There is no obligation to transform the work. If you do you must indicate changes.
+Obligations;translate;http://www.w3.org/ns/odrl/2/translate;NO;There is no obligation to translate the work. If you do you must indicate changes.
+Obligations;uninstall;http://www.w3.org/ns/odrl/2/uninstall;NO;There is no obligation to uninstall.
+Obligations;use;http://www.w3.org/ns/odrl/2/use;NO;There is no obligation to use the work.
+Obligations;watermark;http://www.w3.org/ns/odrl/2/watermark;NO;There is no obligation to apply or retain a watermark unless it's part of the required notices (e.g. copyright notice). There is an obligation not to remove technological measures that don't restrict licensed uses.
