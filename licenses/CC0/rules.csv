@@ -29,7 +29,7 @@ Permissions;modify;http://www.w3.org/ns/odrl/2/modify;YES;CC0 explicitly permits
 Permissions;move;http://www.w3.org/ns/odrl/2/move;YES;Users are permitted to move their copies of the work from one location/medium to another.
 Permissions;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;N/A;CC0 does not typically involve a 'next policy' for the user in relation to the rights waived. The rights are waived or licensed permissively.
 Permissions;notice;http://creativecommons.org/ns#Notice;N/A;This CC term refers to an obligation to include notices. CC0 waives this, so it's not a permission but a lifted requirement.
-Permissions;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;N/A;CC0 itself is the "consent" from the affirmer regarding waived copyright/database rights. Consent for other matters (e.g., privacy rights not covered by CC0) is outside its scope.
+Permissions;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;N/A;CC0 itself is the consent from the affirmer regarding waived copyright/database rights. Consent for other matters (e.g., privacy rights not covered by CC0) is outside its scope.
 Permissions;play;http://www.w3.org/ns/odrl/2/play;YES;If the work is audiovisual media, users are permitted to play it.
 Permissions;present;http://www.w3.org/ns/odrl/2/present;YES;Users are permitted to show or perform the work to an audience.
 Permissions;print;http://www.w3.org/ns/odrl/2/print;YES;Users are permitted to create physical copies (prints) of the work.
@@ -105,7 +105,7 @@ Obligations;annotate;http://www.w3.org/ns/odrl/2/annotate;NO;CC0 does not obliga
 Obligations;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;CC0 does not obligate the user to anonymize data (though other ethical or legal rules might apply).
 Obligations;archive;http://www.w3.org/ns/odrl/2/archive;NO;CC0 does not obligate the user to archive the work.
 Obligations;attribute;http://www.w3.org/ns/odrl/2/attribute;NO;CC0 explicitly waives the requirement for attribution. Users are not obligated to attribute.
-Obligations;attribution;http://creativecommons.org/ns#Attribution;NO;CC0 means "No Rights Reserved," which includes waiving the condition of attribution found in other CC licenses.
+Obligations;attribution;http://creativecommons.org/ns#Attribution;NO;CC0 means No Rights Reserved, which includes waiving the condition of attribution found in other CC licenses.
 Obligations;commercial use;http://creativecommons.org/ns#CommercialUse;N/A;This is a permission, not an obligation. Users are not obligated to use the work commercially.
 Obligations;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;CC0 does not obligate users to compensate the original creator or affirmer.
 Obligations;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;NO;CC0 does not impose any obligations related to concurrent use.

@@ -66,7 +66,7 @@ Prohibitions;digitize;http://www.w3.org/ns/odrl/2/digitize;NO;PDM does not prohi
 Prohibitions;display;http://www.w3.org/ns/odrl/2/display;NO;PDM does not prohibit display.
 Prohibitions;distribute;http://www.w3.org/ns/odrl/2/distribute;NO;PDM does not prohibit distribution.
 Prohibitions;distribution;http://creativecommons.org/ns#Distribution;NO;PDM does not prohibit distribution.
-Prohibitions;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;YES;While PDM itself doesn't prohibit this action, the nature of public domain means one *cannot* ensure exclusivity based on copyright. So, attempting to assert copyright exclusivity over a PD work is effectively prohibited by the work's actual status. The action of "ensuring exclusivity" is counter to what PDM represents.
+Prohibitions;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;YES;While PDM itself doesn't prohibit this action, the nature of public domain means one *cannot* ensure exclusivity based on copyright. So, attempting to assert copyright exclusivity over a PD work is effectively prohibited by the work's actual status. The action of ensuring exclusivity is counter to what PDM represents.
 Prohibitions;execute;http://www.w3.org/ns/odrl/2/execute;NO;PDM does not prohibit execution (of software).
 Prohibitions;extract;http://www.w3.org/ns/odrl/2/extract;NO;PDM does not prohibit extraction.
 Prohibitions;give;http://www.w3.org/ns/odrl/2/give;NO;PDM does not prohibit giving a copy of the work.
