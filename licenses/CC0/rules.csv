@@ -1,0 +1,151 @@
+Section;Action;URI;Applicable;Reasoning
+Permissions;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;YES;CC0 places no restrictions on how the work is used or integrated with other technologies; users are permitted to interact with systems that may use tracking in conjunction with CC0 material.
+Permissions;aggregate;http://www.w3.org/ns/odrl/2/aggregate;YES;CC0 allows the work to be combined with other works, as it permits modification and incorporation into larger collections.
+Permissions;annotate;http://www.w3.org/ns/odrl/2/annotate;YES;Annotation is a form of modification or addition to the work, which is permitted under CC0.
+Permissions;anonymize;http://www.w3.org/ns/odrl/2/anonymize;YES;If the work contains personal data, CC0 permits the act of anonymizing this data as a form of modification or processing.
+Permissions;archive;http://www.w3.org/ns/odrl/2/archive;YES;Users are permitted to make copies and store (archive) the work.
+Permissions;attribute;http://www.w3.org/ns/odrl/2/attribute;YES;While not required, users are permitted to provide attribution to the original creator if they choose to do so. CC0 does not forbid voluntary attribution.
+Permissions;attribution;http://creativecommons.org/ns#Attribution;N/A;This Creative Commons term refers to an obligation to attribute. CC0 waives this obligation, so it's not a permission granted but rather a requirement that is lifted. The permission is to use *without* attribution.
+Permissions;commercial use;http://creativecommons.org/ns#CommercialUse;YES;CC0 explicitly permits the work to be used for commercial purposes.
+Permissions;compensate;http://www.w3.org/ns/odrl/2/compensate;N/A;CC0 does not require compensation. While a user *could* choose to compensate an author, this action is about an obligation to pay, which is not granted as a 'permission to be obligated'. The permission is to use without compensation.
+Permissions;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;YES;CC0 places no restrictions on the number of simultaneous users of the work.
+Permissions;delete;http://www.w3.org/ns/odrl/2/delete;YES;Users are permitted to delete their copies of the work or any derivatives they make.
+Permissions;derivative works;http://creativecommons.org/ns#DerivativeWorks;YES;CC0 explicitly permits the creation and use of derivative works.
+Permissions;derive;http://www.w3.org/ns/odrl/2/derive;YES;Users are permitted to create new works based on the CC0 work.
+Permissions;digitize;http://www.w3.org/ns/odrl/2/digitize;YES;Users are permitted to convert the work into a digital format if it is in an analog form.
+Permissions;display;http://www.w3.org/ns/odrl/2/display;YES;Users are permitted to display the work publicly or privately.
+Permissions;distribute;http://www.w3.org/ns/odrl/2/distribute;YES;Users are permitted to share, give, or sell copies of the work, whether original or modified.
+Permissions;distribution;http://creativecommons.org/ns#Distribution;YES;CC0 grants the right to distribute the work.
+Permissions;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;NO;CC0 dedicates the work for public use; a user cannot claim exclusive rights over the original CC0 work in a way that prevents others from using it under CC0 terms.
+Permissions;execute;http://www.w3.org/ns/odrl/2/execute;YES;If the work is software or otherwise executable, users are permitted to run it.
+Permissions;extract;http://www.w3.org/ns/odrl/2/extract;YES;Users are permitted to take portions or elements from the work.
+Permissions;give;http://www.w3.org/ns/odrl/2/give;YES;Giving the work to others is a form of distribution, which is permitted.
+Permissions;grant use;http://www.w3.org/ns/odrl/2/grantUse;YES;Users can allow others to use the work; essentially, they are passing on the rights already granted by CC0.
+Permissions;include;http://www.w3.org/ns/odrl/2/include;YES;Users are permitted to incorporate the work into other works or collections.
+Permissions;index;http://www.w3.org/ns/odrl/2/index;YES;Users are permitted to index the work, for instance, for searchability in a database.
+Permissions;inform;http://www.w3.org/ns/odrl/2/inform;YES;Users are permitted to communicate information about or contained within the work (subject to other laws like privacy for sensitive data not waived by CC0).
+Permissions;install;http://www.w3.org/ns/odrl/2/install;YES;If the work is software or requires installation, users are permitted to install it.
+Permissions;modify;http://www.w3.org/ns/odrl/2/modify;YES;CC0 explicitly permits users to adapt, change, or alter the work.
+Permissions;move;http://www.w3.org/ns/odrl/2/move;YES;Users are permitted to move their copies of the work from one location/medium to another.
+Permissions;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;N/A;CC0 does not typically involve a 'next policy' for the user in relation to the rights waived. The rights are waived or licensed permissively.
+Permissions;notice;http://creativecommons.org/ns#Notice;N/A;This CC term refers to an obligation to include notices. CC0 waives this, so it's not a permission but a lifted requirement.
+Permissions;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;N/A;CC0 itself is the "consent" from the affirmer regarding waived copyright/database rights. Consent for other matters (e.g., privacy rights not covered by CC0) is outside its scope.
+Permissions;play;http://www.w3.org/ns/odrl/2/play;YES;If the work is audiovisual media, users are permitted to play it.
+Permissions;present;http://www.w3.org/ns/odrl/2/present;YES;Users are permitted to show or perform the work to an audience.
+Permissions;print;http://www.w3.org/ns/odrl/2/print;YES;Users are permitted to create physical copies (prints) of the work.
+Permissions;read;http://www.w3.org/ns/odrl/2/read;YES;Users are permitted to access and read or view the work.
+Permissions;reproduce;http://www.w3.org/ns/odrl/2/reproduce;YES;Users are permitted to make copies of the work.
+Permissions;reproduction;http://creativecommons.org/ns#Reproduction;YES;CC0 grants the right to reproduce the work.
+Permissions;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;N/A;While users *can* review the CC0 legal text, this isn't a permission granted by CC0 for using the asset itself, but rather an action related to understanding its terms.
+Permissions;sell;http://www.w3.org/ns/odrl/2/sell;YES;Users are permitted to sell the CC0 work or works that incorporate it.
+Permissions;share Alike;http://creativecommons.org/ns#ShareAlike;N/A;This CC term refers to an obligation to license derivatives under the same terms. CC0 waives all such obligations.
+Permissions;sharing;http://creativecommons.org/ns#Sharing;YES;CC0 grants broad rights to share the work in various ways.
+Permissions;source code;http://www.w3.org/ns/odrl/2/sourceCode;YES;If the work is software and source code is provided under CC0, or if the user can derive it, its use, modification, and distribution are permitted. CC0 doesn't obligate the affirmer to provide source code if they release only a binary under CC0.
+Permissions;stream;http://www.w3.org/ns/odrl/2/stream;YES;If the work is media, users are permitted to stream it.
+Permissions;synchronize;http://www.w3.org/ns/odrl/2/synchronize;YES;Users are permitted to synchronize the work with other works (e.g., audio with video), which is a form of modification/derivation.
+Permissions;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;YES;Users are permitted to convert textual CC0 works into audible speech.
+Permissions;transform;http://www.w3.org/ns/odrl/2/transform;YES;Users are permitted to transform the work, which is synonymous with modifying or creating derivatives.
+Permissions;translate;http://www.w3.org/ns/odrl/2/translate;YES;Users are permitted to translate the work into other languages.
+Permissions;uninstall;http://www.w3.org/ns/odrl/2/uninstall;YES;If the work was installed (e.g., software), users are permitted to uninstall it.
+Permissions;use;http://www.w3.org/ns/odrl/2/use;YES;CC0 permits any use of the work that is not otherwise restricted by laws outside of the copyright and related rights waived by CC0.
+Permissions;watermark;http://www.w3.org/ns/odrl/2/watermark;YES;Users are permitted to add a watermark to their copy or derivative as a form of modification. CC0 also permits removal of existing watermarks if technically feasible, as part of free use.
+Prohibitions;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;CC0 does not prohibit the user from accepting tracking if the work is used in a system that employs it.
+Prohibitions;aggregate;http://www.w3.org/ns/odrl/2/aggregate;NO;CC0 does not prohibit aggregating the work with other content.
+Prohibitions;annotate;http://www.w3.org/ns/odrl/2/annotate;NO;CC0 does not prohibit annotating the work.
+Prohibitions;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;CC0 does not prohibit anonymizing data within the work.
+Prohibitions;archive;http://www.w3.org/ns/odrl/2/archive;NO;CC0 does not prohibit archiving the work.
+Prohibitions;attribute;http://www.w3.org/ns/odrl/2/attribute;NO;CC0 does not prohibit providing attribution; it simply does not require it.
+Prohibitions;attribution;http://creativecommons.org/ns#Attribution;N/A;This CC term is an obligation. CC0 does not prohibit voluntary attribution.
+Prohibitions;commercial use;http://creativecommons.org/ns#CommercialUse;NO;CC0 does not prohibit commercial use; it explicitly allows it.
+Prohibitions;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;CC0 does not prohibit a user from voluntarily compensating the creator, though it doesn't require it.
+Prohibitions;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;NO;CC0 does not prohibit concurrent use of the work.
+Prohibitions;delete;http://www.w3.org/ns/odrl/2/delete;NO;CC0 does not prohibit deleting the work.
+Prohibitions;derivative works;http://creativecommons.org/ns#DerivativeWorks;NO;CC0 does not prohibit the creation of derivative works; it explicitly allows it.
+Prohibitions;derive;http://www.w3.org/ns/odrl/2/derive;NO;CC0 does not prohibit deriving new works.
+Prohibitions;digitize;http://www.w3.org/ns/odrl/2/digitize;NO;CC0 does not prohibit digitizing the work.
+Prohibitions;display;http://www.w3.org/ns/odrl/2/display;NO;CC0 does not prohibit displaying the work.
+Prohibitions;distribute;http://www.w3.org/ns/odrl/2/distribute;NO;CC0 does not prohibit distributing the work.
+Prohibitions;distribution;http://creativecommons.org/ns#Distribution;NO;CC0 does not prohibit distribution of the work.
+Prohibitions;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;YES;CC0 intends to place the work into the public domain as fully as possible. A user is prohibited from taking the original CC0 work and asserting exclusive copyright control over it in a way that restricts others from exercising the rights granted by CC0.
+Prohibitions;execute;http://www.w3.org/ns/odrl/2/execute;NO;CC0 does not prohibit executing the work.
+Prohibitions;extract;http://www.w3.org/ns/odrl/2/extract;NO;CC0 does not prohibit extracting parts of the work.
+Prohibitions;give;http://www.w3.org/ns/odrl/2/give;NO;CC0 does not prohibit giving the work to others.
+Prohibitions;grant use;http://www.w3.org/ns/odrl/2/grantUse;NO;CC0 does not prohibit users from granting use to others (they are effectively passing on the public domain status).
+Prohibitions;include;http://www.w3.org/ns/odrl/2/include;NO;CC0 does not prohibit including the work in other collections.
+Prohibitions;index;http://www.w3.org/ns/odrl/2/index;NO;CC0 does not prohibit indexing the work.
+Prohibitions;inform;http://www.w3.org/ns/odrl/2/inform;NO;CC0 does not prohibit informing others about the work.
+Prohibitions;install;http://www.w3.org/ns/odrl/2/install;NO;CC0 does not prohibit installing the work.
+Prohibitions;modify;http://www.w3.org/ns/odrl/2/modify;NO;CC0 does not prohibit modifying the work.
+Prohibitions;move;http://www.w3.org/ns/odrl/2/move;NO;CC0 does not prohibit moving the work.
+Prohibitions;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;NO;CC0 itself does not prohibit a scenario where other policies might apply (e.g., platform terms of service), but CC0 itself does not institute such a prohibition on its use.
+Prohibitions;notice;http://creativecommons.org/ns#Notice;N/A;This CC term is an obligation. CC0 does not prohibit providing notices voluntarily.
+Prohibitions;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;CC0 does not prohibit obtaining consent for matters outside its scope (e.g., privacy rights).
+Prohibitions;play;http://www.w3.org/ns/odrl/2/play;NO;CC0 does not prohibit playing the work.
+Prohibitions;present;http://www.w3.org/ns/odrl/2/present;NO;CC0 does not prohibit presenting the work.
+Prohibitions;print;http://www.w3.org/ns/odrl/2/print;NO;CC0 does not prohibit printing the work.
+Prohibitions;read;http://www.w3.org/ns/odrl/2/read;NO;CC0 does not prohibit reading the work.
+Prohibitions;reproduce;http://www.w3.org/ns/odrl/2/reproduce;NO;CC0 does not prohibit reproducing the work.
+Prohibitions;reproduction;http://creativecommons.org/ns#Reproduction;NO;CC0 does not prohibit reproduction of the work.
+Prohibitions;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;CC0 does not prohibit reviewing its own terms.
+Prohibitions;sell;http://www.w3.org/ns/odrl/2/sell;NO;CC0 does not prohibit selling the work.
+Prohibitions;share Alike;http://creativecommons.org/ns#ShareAlike;N/A;This CC term is an obligation. CC0 does not prohibit a user from choosing to license their derivatives under a ShareAlike license.
+Prohibitions;sharing;http://creativecommons.org/ns#Sharing;NO;CC0 does not prohibit sharing the work.
+Prohibitions;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;CC0 does not prohibit the use, modification, or distribution of source code provided under CC0.
+Prohibitions;stream;http://www.w3.org/ns/odrl/2/stream;NO;CC0 does not prohibit streaming the work.
+Prohibitions;synchronize;http://www.w3.org/ns/odrl/2/synchronize;NO;CC0 does not prohibit synchronizing the work.
+Prohibitions;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;NO;CC0 does not prohibit converting the work to speech.
+Prohibitions;transform;http://www.w3.org/ns/odrl/2/transform;NO;CC0 does not prohibit transforming the work.
+Prohibitions;translate;http://www.w3.org/ns/odrl/2/translate;NO;CC0 does not prohibit translating the work.
+Prohibitions;uninstall;http://www.w3.org/ns/odrl/2/uninstall;NO;CC0 does not prohibit uninstalling the work.
+Prohibitions;use;http://www.w3.org/ns/odrl/2/use;NO;CC0 does not prohibit the use of the work (beyond restrictions of law outside copyright that CC0 doesn't waive).
+Prohibitions;watermark;http://www.w3.org/ns/odrl/2/watermark;NO;CC0 does not prohibit a user from adding a watermark to their copy or derivative.
+Obligations;accept tracking;http://www.w3.org/ns/odrl/2/acceptTracking;NO;CC0 does not obligate the user to accept tracking.
+Obligations;aggregate;http://www.w3.org/ns/odrl/2/aggregate;NO;CC0 does not obligate the user to aggregate the work.
+Obligations;annotate;http://www.w3.org/ns/odrl/2/annotate;NO;CC0 does not obligate the user to annotate the work.
+Obligations;anonymize;http://www.w3.org/ns/odrl/2/anonymize;NO;CC0 does not obligate the user to anonymize data (though other ethical or legal rules might apply).
+Obligations;archive;http://www.w3.org/ns/odrl/2/archive;NO;CC0 does not obligate the user to archive the work.
+Obligations;attribute;http://www.w3.org/ns/odrl/2/attribute;NO;CC0 explicitly waives the requirement for attribution. Users are not obligated to attribute.
+Obligations;attribution;http://creativecommons.org/ns#Attribution;NO;CC0 means "No Rights Reserved," which includes waiving the condition of attribution found in other CC licenses.
+Obligations;commercial use;http://creativecommons.org/ns#CommercialUse;N/A;This is a permission, not an obligation. Users are not obligated to use the work commercially.
+Obligations;compensate;http://www.w3.org/ns/odrl/2/compensate;NO;CC0 does not obligate users to compensate the original creator or affirmer.
+Obligations;concurrent use;http://www.w3.org/ns/odrl/2/concurrentUse;NO;CC0 does not impose any obligations related to concurrent use.
+Obligations;delete;http://www.w3.org/ns/odrl/2/delete;NO;CC0 does not obligate users to delete the work.
+Obligations;derivative works;http://creativecommons.org/ns#DerivativeWorks;N/A;This is a permission, not an obligation. Users are not obligated to create derivative works.
+Obligations;derive;http://www.w3.org/ns/odrl/2/derive;NO;CC0 does not obligate users to derive new works.
+Obligations;digitize;http://www.w3.org/ns/odrl/2/digitize;NO;CC0 does not obligate users to digitize the work.
+Obligations;display;http://www.w3.org/ns/odrl/2/display;NO;CC0 does not obligate users to display the work.
+Obligations;distribute;http://www.w3.org/ns/odrl/2/distribute;NO;CC0 does not obligate users to distribute the work.
+Obligations;distribution;http://creativecommons.org/ns#Distribution;N/A;This is a permission, not an obligation.
+Obligations;ensure exclusivity;http://www.w3.org/ns/odrl/2/ensureExclusivity;NO;Users are not obligated to ensure exclusivity; in fact, for the CC0 work itself, they cannot.
+Obligations;execute;http://www.w3.org/ns/odrl/2/execute;NO;CC0 does not obligate users to execute the work.
+Obligations;extract;http://www.w3.org/ns/odrl/2/extract;NO;CC0 does not obligate users to extract portions of the work.
+Obligations;give;http://www.w3.org/ns/odrl/2/give;NO;CC0 does not obligate users to give the work to others.
+Obligations;grant use;http://www.w3.org/ns/odrl/2/grantUse;NO;CC0 does not obligate users to grant use to others (the rights are already available via CC0).
+Obligations;include;http://www.w3.org/ns/odrl/2/include;NO;CC0 does not obligate users to include the work in other collections.
+Obligations;index;http://www.w3.org/ns/odrl/2/index;NO;CC0 does not obligate users to index the work.
+Obligations;inform;http://www.w3.org/ns/odrl/2/inform;NO;CC0 does not obligate users to inform anyone (e.g., the original author) of their use.
+Obligations;install;http://www.w3.org/ns/odrl/2/install;NO;CC0 does not obligate users to install the work.
+Obligations;modify;http://www.w3.org/ns/odrl/2/modify;NO;CC0 does not obligate users to modify the work.
+Obligations;move;http://www.w3.org/ns/odrl/2/move;NO;CC0 does not obligate users to move the work.
+Obligations;next policy;http://www.w3.org/ns/odrl/2/nextPolicy;NO;CC0 does not obligate users to adhere to any subsequent policy regarding the work's use based on CC0 itself.
+Obligations;notice;http://creativecommons.org/ns#Notice;NO;CC0 waives requirements for copyright notices. Users are not obligated to provide them.
+Obligations;obtain consent;http://www.w3.org/ns/odrl/2/obtainConsent;NO;CC0 means prior consent (for waived rights) is given by the affirmer; users are not obligated to seek additional consent for these uses.
+Obligations;play;http://www.w3.org/ns/odrl/2/play;NO;CC0 does not obligate users to play the work.
+Obligations;present;http://www.w3.org/ns/odrl/2/present;NO;CC0 does not obligate users to present the work.
+Obligations;print;http://www.w3.org/ns/odrl/2/print;NO;CC0 does not obligate users to print the work.
+Obligations;read;http://www.w3.org/ns/odrl/2/read;NO;CC0 does not obligate users to read or access the work.
+Obligations;reproduce;http://www.w3.org/ns/odrl/2/reproduce;NO;CC0 does not obligate users to reproduce the work.
+Obligations;reproduction;http://creativecommons.org/ns#Reproduction;N/A;This is a permission, not an obligation.
+Obligations;review policy;http://www.w3.org/ns/odrl/2/reviewPolicy;NO;CC0 does not obligate users to review its terms (though it is advisable for understanding).
+Obligations;sell;http://www.w3.org/ns/odrl/2/sell;NO;CC0 does not obligate users to sell the work.
+Obligations;share Alike;http://creativecommons.org/ns#ShareAlike;NO;CC0 explicitly does not include a ShareAlike obligation.
+Obligations;sharing;http://creativecommons.org/ns#Sharing;N/A;This is a permission, not an obligation.
+Obligations;source code;http://www.w3.org/ns/odrl/2/sourceCode;NO;CC0 does not obligate users to provide or distribute source code for their modifications or for the original work.
+Obligations;stream;http://www.w3.org/ns/odrl/2/stream;NO;CC0 does not obligate users to stream the work.
+Obligations;synchronize;http://www.w3.org/ns/odrl/2/synchronize;NO;CC0 does not obligate users to synchronize the work.
+Obligations;Text-to-speech;http://www.w3.org/ns/odrl/2/textToSpeech;NO;CC0 does not obligate users to convert the work to speech.
+Obligations;transform;http://www.w3.org/ns/odrl/2/transform;NO;CC0 does not obligate users to transform the work.
+Obligations;translate;http://www.w3.org/ns/odrl/2/translate;NO;CC0 does not obligate users to translate the work.
+Obligations;uninstall;http://www.w3.org/ns/odrl/2/uninstall;NO;CC0 does not obligate users to uninstall the work.
+Obligations;use;http://www.w3.org/ns/odrl/2/use;NO;CC0 does not obligate users to use the work.
+Obligations;watermark;http://www.w3.org/ns/odrl/2/watermark;NO;CC0 does not obligate users to add or remove watermarks.
