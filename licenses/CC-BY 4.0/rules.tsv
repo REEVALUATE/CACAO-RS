@@ -47,7 +47,7 @@ Permissions	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	YES	Converti
 Permissions	transform	http://www.w3.org/ns/odrl/2/transform	YES	Transformation is explicitly permitted. Deed: Adapt — remix, transform, and build upon the material. Legal code Section 2.a.1.B.
 Permissions	translate	http://www.w3.org/ns/odrl/2/translate	YES	Translation is a form of adaptation (Adapted Material in Section 1.a explicitly mentions translation), which is permitted.
 Permissions	uninstall	http://www.w3.org/ns/odrl/2/uninstall	NO	Similar to 'delete', uninstalling software is a general right of a computer user for their own system, not a specific permission granted by this content license.
-Permissions	use	http://www.w3.org/ns/odrl/2/use	YES	The license grants various specific rights (reproduce, adapt, share) which collectively constitute use. Section 2.a.1 implicitly grants use.
+Permissions	use	http://www.w3.org/ns/odrl/2/use	NO	The odrl:use property implicitly indicates that all other permissions are granted. This is not the case for this license.
 Permissions	watermark	http://www.w3.org/ns/odrl/2/watermark	NO	The license does not grant a general permission to add a watermark. If adding a watermark is considered a modification, it would be allowed as an adaptation. However, applying a *technological measure* that restricts access (which some watermarks might do) is prohibited (Section 2.a.5.B). Attribution information is required, but not necessarily as a visual watermark.
 Prohibitions	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	The license does not prohibit the user from choosing to accept tracking by a service that might host the licensed material this is outside the scope of the copyright license itself.
 Prohibitions	aggregate	http://www.w3.org/ns/odrl/2/aggregate	NO	Aggregation is permitted.
@@ -97,7 +97,7 @@ Prohibitions	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	NO	Text-to-
 Prohibitions	transform	http://www.w3.org/ns/odrl/2/transform	NO	Transformation is permitted.
 Prohibitions	translate	http://www.w3.org/ns/odrl/2/translate	NO	Translation is permitted.
 Prohibitions	uninstall	http://www.w3.org/ns/odrl/2/uninstall	NO	The license doesn't prohibit uninstalling one's own copies.
-Prohibitions	use	http://www.w3.org/ns/odrl/2/use	NO	Use, according to the license terms, is permitted.
+Prohibitions	use	http://www.w3.org/ns/odrl/2/use	NO	Prohibiting use would prohibit all uses.
 Prohibitions	watermark	http://www.w3.org/ns/odrl/2/watermark	YES	Applying technological measures (which a restrictive watermark could be) that legally restrict others from doing anything the license permits is prohibited (Section 2.a.5.B and Section 3.b of legal code regarding Effective Technological Measures). However, adding a non-restrictive mark as part of an adaptation may be permissible, but not if it limits licensed rights.
 Obligations	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	The license imposes no obligation on the user to accept tracking.
 Obligations	aggregate	http://www.w3.org/ns/odrl/2/aggregate	NO	There's no obligation to aggregate the material.
