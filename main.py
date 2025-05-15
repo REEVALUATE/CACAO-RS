@@ -56,7 +56,7 @@ if __name__ == "__main__":
 
     # Bind namespaces to the main graph for cleaner output
     main_graph.bind("cacao", CACAO_BASE_NS)
-    main_graph.bind("cacao_license", CACAO_RULE_NS)
+    main_graph.bind("cacao-rs", CACAO_RULE_NS)
     main_graph.bind("odrl", ODRL)
     main_graph.bind("cc", CC)
     
