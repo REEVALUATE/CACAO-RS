@@ -30,8 +30,8 @@ def get_relevant_actions_from_tsv(tsv_file_path):
                 return relevant_actions # Return empty set if no header/data
                 
             for i, row in enumerate(reader):
-                if len(row) >= 3 and row[2].strip(): # Check if row has at least 3 columns and URI is not empty
-                    uri = row[2].strip()
+                if len(row) >= 2 and row[1].strip(): # Check if row has at least 3 columns and URI is not empty
+                    uri = row[1].strip()
                     if uri.startswith("http://") or uri.startswith("https://"):
                         relevant_actions.add(uri)
                     else:

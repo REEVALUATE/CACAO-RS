@@ -1,7 +1,7 @@
 import os
 import rdflib
 import pandas as pd
-from rdflib.namespace import RDF, RDFS, OWL, XSD
+from rdflib.namespace import RDF
 
 # Define a base namespace and specific namespaces for rules and descriptions
 CACAO_BASE_NS = rdflib.Namespace("http://w3id.org/cacao/")
@@ -98,6 +98,13 @@ if __name__ == "__main__":
             #     g = handle_description_row(row_tup[1])
                 
         g.add((subject_uri, ODRL.permission, permission_bnode))
+        if item_name == "InC-EDU 1.0":
+            constraint = rdflib.BNode()
+            g.add((constraint, RDF.type, ODRL.Constraint))
+            g.add((constraint, ODRL.leftOperand, ODRL.purpose))
+            g.add((constraint, ODRL.operator, ODRL.equals))
+            g.add((constraint, ODRL.rightOperand, rdflib.Literal("Educational use")))
+            g.add((permission_bnode, ODRL.constraint, constraint))
         g.add((subject_uri, ODRL.obligation, obligation_bnode))
         g.add((subject_uri, ODRL.prohibition, prohibition_bnode))
         main_graph += g     

@@ -298,6 +298,147 @@ cacao_license:CC0_1.0 a odrl:Policy ;
                 odrl:reviewPolicy,
                 odrl:watermark ] .
 
+cacao_license:CNE_1.0 a odrl:Policy ;
+    odrl:obligation [ ] ;
+    odrl:permission [ ] ;
+    odrl:prohibition [ ] .
+
+cacao_license:InC-EDU_1.0 a odrl:Policy ;
+    odrl:obligation [ ] ;
+    odrl:permission [ odrl:action cc:DerivativeWorks,
+                cc:Distribution,
+                cc:Reproduction,
+                cc:Sharing,
+                odrl:aggregate,
+                odrl:annotate,
+                odrl:anonymize,
+                odrl:archive,
+                odrl:concurrentUse,
+                odrl:delete,
+                odrl:derive,
+                odrl:digitize,
+                odrl:display,
+                odrl:distribute,
+                odrl:execute,
+                odrl:extract,
+                odrl:include,
+                odrl:index,
+                odrl:install,
+                odrl:modify,
+                odrl:move,
+                odrl:play,
+                odrl:present,
+                odrl:print,
+                odrl:read,
+                odrl:reproduce,
+                odrl:stream,
+                odrl:synchronize,
+                odrl:textToSpeech,
+                odrl:transform,
+                odrl:translate,
+                odrl:uninstall ;
+            odrl:constraint [ a odrl:Constraint ;
+                    odrl:leftOperand odrl:purpose ;
+                    odrl:operator odrl:equals ;
+                    odrl:rightOperand "Educational use" ] ] ;
+    odrl:prohibition [ odrl:action odrl:ensureExclusivity,
+                odrl:grantUse,
+                odrl:nextPolicy,
+                odrl:reviewPolicy,
+                odrl:watermark ] .
+
+cacao_license:InC-OW-EU_1.0 a odrl:Policy ;
+    odrl:obligation [ ] ;
+    odrl:permission [ odrl:action cc:CommercialUse,
+                cc:DerivativeWorks,
+                cc:Distribution,
+                cc:Reproduction,
+                cc:Sharing,
+                odrl:aggregate,
+                odrl:annotate,
+                odrl:anonymize,
+                odrl:archive,
+                odrl:compensate,
+                odrl:concurrentUse,
+                odrl:delete,
+                odrl:derive,
+                odrl:digitize,
+                odrl:display,
+                odrl:distribute,
+                odrl:execute,
+                odrl:extract,
+                odrl:include,
+                odrl:index,
+                odrl:install,
+                odrl:modify,
+                odrl:move,
+                odrl:play,
+                odrl:present,
+                odrl:print,
+                odrl:read,
+                odrl:reproduce,
+                odrl:sell,
+                odrl:stream,
+                odrl:synchronize,
+                odrl:textToSpeech,
+                odrl:transform,
+                odrl:translate,
+                odrl:uninstall ] ;
+    odrl:prohibition [ odrl:action odrl:ensureExclusivity,
+                odrl:grantUse,
+                odrl:nextPolicy,
+                odrl:reviewPolicy,
+                odrl:watermark ] .
+
+cacao_license:NoC-NC_1.0 a odrl:Policy ;
+    odrl:obligation [ ] ;
+    odrl:permission [ odrl:action cc:DerivativeWorks,
+                cc:Distribution,
+                cc:Reproduction,
+                cc:Sharing,
+                odrl:aggregate,
+                odrl:annotate,
+                odrl:anonymize,
+                odrl:archive,
+                odrl:concurrentUse,
+                odrl:delete,
+                odrl:derive,
+                odrl:digitize,
+                odrl:display,
+                odrl:distribute,
+                odrl:execute,
+                odrl:extract,
+                odrl:include,
+                odrl:index,
+                odrl:install,
+                odrl:modify,
+                odrl:move,
+                odrl:play,
+                odrl:present,
+                odrl:print,
+                odrl:read,
+                odrl:reproduce,
+                odrl:stream,
+                odrl:synchronize,
+                odrl:textToSpeech,
+                odrl:transform,
+                odrl:translate,
+                odrl:uninstall ] ;
+    odrl:prohibition [ odrl:action odrl:ensureExclusivity,
+                odrl:grantUse,
+                odrl:nextPolicy,
+                odrl:reviewPolicy,
+                odrl:watermark ] .
+
+cacao_license:NoC-OKLR_1.0 a odrl:Policy ;
+    odrl:obligation [ ] ;
+    odrl:permission [ ] ;
+    odrl:prohibition [ odrl:action odrl:ensureExclusivity,
+                odrl:grantUse,
+                odrl:nextPolicy,
+                odrl:reviewPolicy,
+                odrl:watermark ] .
+
 cacao_license:PDM a odrl:Policy ;
     odrl:obligation [ ] ;
     odrl:permission [ odrl:action cc:CommercialUse,

@@ -125,3 +125,26 @@ cacao_license:PDM a odrl:Policy ;
     odrl:permission cacao_license:modify_permissions ;
     odrl:prohibition cacao_license:change_license_prohibition .
 
+cacao_license:NoC-NC_1.0 a odrl:Policy ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:NoC-OKLR_1.0 a odrl:Policy ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:InC-EDU_1.0 a odrl:Policy ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:InC-OW-EU_1.0 a odrl:Policy ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:commercial_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:CNE_1.0 a odrl:Policy .
