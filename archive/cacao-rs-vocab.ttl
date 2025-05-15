@@ -1,0 +1,127 @@
+@prefix cacao_license: <http://w3id.org/cacao/vocab/license/> .
+@prefix cc: <http://creativecommons.org/ns#> .
+@prefix odrl: <http://www.w3.org/ns/odrl/2/> .
+
+
+
+cacao_license:modify_permissions a odrl:Permission ;
+    odrl:action odrl:aggregate ;
+    odrl:action odrl:annotate ;
+    odrl:action cc:DerivativeWorks ;
+    odrl:action odrl:derive ;
+    odrl:action odrl:modify ;
+    odrl:action odrl:transform ;
+    odrl:action odrl:translate ;
+    odrl:action odrl:anonymize
+    .
+
+cacao_license:use_permissions a odrl:Permission ;
+    odrl:action odrl:archive ;
+    odrl:action odrl:concurrentUse ;
+    odrl:action odrl:digitize ;
+    odrl:action odrl:display ;
+    odrl:action odrl:execute ;
+    odrl:action odrl:extract ;
+    odrl:action odrl:include ;
+    odrl:action odrl:index ;
+    odrl:action odrl:install ;
+    odrl:action odrl:move ;
+    odrl:action odrl:play ;
+    odrl:action odrl:present ;
+    odrl:action odrl:read ;
+    odrl:action odrl:stream ;
+    odrl:action odrl:synchronize ;
+    odrl:action odrl:uninstall ;
+    odrl:action odrl:delete ;
+    odrl:action odrl:textToSpeech ;
+    odrl:action odrl:print ;
+    odrl:action odrl:reproduce ;
+    odrl:action cc:Reproduction ;
+    .
+
+cacao_license:commercial_permissions a odrl:Permission ;
+    odrl:action cc:CommercialUse ;
+    odrl:action odrl:sell ;
+    odrl:action odrl:compensate ;
+    .
+
+cacao_license:share_permissions a odrl:Permission ;
+    odrl:action cc:Distribution ;
+    odrl:action cc:Sharing ;
+    odrl:action odrl:distribute ;
+    .
+
+cacao_license:attribute_obligation a odrl:Duty ;
+    odrl:action cc:Attribution ;
+    odrl:action odrl:attribute ;
+    odrl:action cc:Notice ;
+    odrl:action odrl:inform ;
+    .
+
+cacao_license:change_license_prohibition a odrl:Prohibition ;
+    odrl:action odrl:ensureExclusivity ;
+    odrl:action odrl:grantUse ;
+    odrl:action odrl:nextPolicy ;
+    odrl:action odrl:watermark ;
+    odrl:action odrl:reviewPolicy ;
+    .
+
+cacao_license:CC-BY-NC-ND_4.0 a odrl:Policy ;
+    odrl:obligation cacao_license:attribute_obligation ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:CC-BY-NC-SA_4.0 a odrl:Policy ;
+    odrl:obligation cacao_license:attribute_obligation ;
+    odrl:obligation cc:ShareAlike ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:CC-BY-NC_4.0 a odrl:Policy ;
+    odrl:obligation cacao_license:attribute_obligation ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:CC-BY-ND_4.0 a odrl:Policy ;
+    odrl:obligation cacao_license:attribute_obligation ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:commercial_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:CC-BY-SA_4.0 a odrl:Policy ;
+    odrl:obligation cacao_license:attribute_obligation ;
+    odrl:obligation cc:ShareAlike ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:commercial_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:CC-BY_4.0 a odrl:Policy ;
+    odrl:obligation cacao_license:attribute_obligation ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:commercial_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:CC0_1.0 a odrl:Policy ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:commercial_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+
+cacao_license:PDM a odrl:Policy ;
+    odrl:permission cacao_license:share_permissions ;
+    odrl:permission cacao_license:commercial_permissions ;
+    odrl:permission cacao_license:use_permissions ;
+    odrl:permission cacao_license:modify_permissions ;
+    odrl:prohibition cacao_license:change_license_prohibition .
+

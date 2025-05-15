@@ -26,13 +26,13 @@ def handle_rules_row(g: rdflib.Graph, row: pd.Series, permission_bnode: rdflib.B
     """
 
     predicate_uri = ODRL.action
-    if row["Applicable"] == "YES":
+    if row["RELEVANT"] == "YES":
         uri = row["URI"]
         if "http://www.w3.org/ns/odrl/2/" in uri:
             object_literal = ODRL[uri.split("/")[-1]]
         if "http://creativecommons.org/ns#" in uri:
             object_literal = CC[uri.split("#")[-1]]
-        section = row["Section"].lower()
+        section = row["CATEGORY"].lower()
         if "permission" in section:
             g.add((permission_bnode, predicate_uri, object_literal))
         elif "obligation" in section:
@@ -50,6 +50,7 @@ def handle_description_row(row: pd.Series):
 
 
 if __name__ == "__main__":
+   
 
     main_graph = rdflib.Graph()
 

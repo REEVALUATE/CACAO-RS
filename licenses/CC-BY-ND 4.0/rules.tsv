@@ -1,151 +1,151 @@
-Section	Action	URI	Applicable	Reasoning
-Permissions	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	The license does not explicitly grant or require the acceptance of tracking. It focuses on copyright permissions.
-Permissions	aggregate	http://www.w3.org/ns/odrl/2/aggregate	NO	The license allows sharing the material, which could be part of an aggregation, but 'aggregate' as a specific ODRL action (creating a collection) is not explicitly granted as a primary permission. The focus is on redistribution of the original, not necessarily creating new collections from it, though not prohibited if the work itself is unchanged. Given the NoDerivatives clause, aggregation must not create a derivative. The permission to share implies one could include it in a larger work, but the action 'aggregate' isn't a core granted right itself.
-Permissions	annotate	http://www.w3.org/ns/odrl/2/annotate	NO	Annotating could be seen as modifying the material. While private annotations wouldn't be an issue, distributing annotated material could be a derivative, which is prohibited. The license doesn't explicitly permit annotation for distribution.
-Permissions	anonymize	http://www.w3.org/ns/odrl/2/anonymize	NO	Anonymizing data within the material would likely be considered a modification. If the material contains personal data, anonymizing it before sharing might be necessary under data protection laws, but the license itself doesn't grant this as a right over the copyrighted work. Distributing an anonymized version could be a derivative.
-Permissions	archive	http://www.w3.org/ns/odrl/2/archive	YES	The permission to 'copy and redistribute' implies the right to make copies for archival purposes, as long as the terms (like attribution) are met and no derivatives are made. Archiving is a form of copying.
-Permissions	attribute	http://www.w3.org/ns/odrl/2/attribute	NO	This action means to associate an assertion with the Asset. While the license *requires* attribution (an obligation), it does not *grant permission* to the licensee to make new assertions about the asset beyond what is required for attribution.
-Permissions	attribution	http://creativecommons.org/ns#Attribution	NO	This is a condition/obligation of the license, not a permission granted to the licensee.
-Permissions	commercial use	http://creativecommons.org/ns#CommercialUse	YES	The license explicitly states You are free to: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
-Permissions	compensate	http://www.w3.org/ns/odrl/2/compensate	NO	The license is royalty-free. There is no permission (or obligation) for the licensee to compensate the licensor.
-Permissions	concurrent use	http://www.w3.org/ns/odrl/2/concurrentUse	YES	The license allows copying and redistributing, implying multiple users can use the material concurrently as per the license terms. There are no restrictions on the number of concurrent uses.
-Permissions	delete	http://www.w3.org/ns/odrl/2/delete	NO	The license grants rights to use the material, not to delete the licensor's original or other legally held copies. A licensee can delete their own copies, but this isn't a permission granted *by the license* over the work itself.
-Permissions	derivative works	http://creativecommons.org/ns#DerivativeWorks	NO	This is explicitly prohibited from being distributed. The license is NoDerivatives.
-Permissions	derive	http://www.w3.org/ns/odrl/2/derive	NO	The license is NoDerivatives (ND), meaning if you remix, transform, or build upon the material, you may not distribute the modified material. Thus, permission to derive for distribution is not granted. Private derivation is not restricted, but not explicitly permitted for sharing.
-Permissions	digitize	http://www.w3.org/ns/odrl/2/digitize	YES	If the material is in analog form, digitizing it to copy and redistribute the material in any medium or format is permitted, provided it doesn't create a derivative (e.g., a simple format shift is okay).
-Permissions	display	http://www.w3.org/ns/odrl/2/display	YES	Redistributing and sharing inherently include the right to display the material publicly or privately, as long as it's the original work and attribution is given.
-Permissions	distribute	http://www.w3.org/ns/odrl/2/distribute	YES	The license explicitly states You are free to: Share — copy and redistribute the material in any medium or format. This is equivalent to 'distribute'.
-Permissions	distribution	http://creativecommons.org/ns#Distribution	YES	This is a core permission of the license. Share — copy and redistribute the material.
-Permissions	ensure exclusivity	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO	The license is non-exclusive. The licensor can grant licenses to others, and the licensee cannot claim exclusivity.
-Permissions	execute	http://www.w3.org/ns/odrl/2/execute	YES	If the licensed material is software or a script, the permission to 'use' (implied by sharing and copying for any purpose) would include executing it, as long as this doesn't create/distribute a derivative.
-Permissions	extract	http://www.w3.org/ns/odrl/2/extract	NO	Extracting parts of the work and using them in a way that creates a new work could be considered a derivative. If it's just extracting and redistributing a portion verbatim, it might be allowed under 'share', but the specific action 'extract' often implies use in a new context, which borders on derivative. Given ND, this is risky.
-Permissions	give	http://www.w3.org/ns/odrl/2/give	YES	The permission to Share — copy and redistribute the material implies the right to give copies to others.
-Permissions	grant use	http://www.w3.org/ns/odrl/2/grantUse	NO	The licensee cannot sublicense or grant use to others beyond the original license terms. They can share the work under the CC BY-ND 4.0 terms, but not grant a *new* or different use.
-Permissions	include	http://www.w3.org/ns/odrl/2/include	NO	Including the work in a larger collection is generally allowed if the work itself is not modified. However, 'include' as an ODRL action can imply creating a new composite work, which might be seen as a derivative if the included work is adapted or tightly integrated. Sharing as part of a collection is fine, but specific 'include' rights are not explicitly granted beyond simple aggregation.
-Permissions	index	http://www.w3.org/ns/odrl/2/index	NO	Indexing the material for private use is fine. Publicly distributing an index that itself contains substantial protected parts of the work or creates a new understanding might be a derivative. The license doesn't explicitly grant permission to create and distribute indexes as a separate right.
-Permissions	inform	http://www.w3.org/ns/odrl/2/inform	NO	This action refers to informing a party. The license does not grant the licensee permission to inform others on behalf of the licensor or the work, other than providing the required notices.
-Permissions	install	http://www.w3.org/ns/odrl/2/install	YES	If the material is software, the right to copy and use it (implied by for any purpose) includes installation on a device.
-Permissions	modify	http://www.w3.org/ns/odrl/2/modify	NO	The license is NoDerivatives, which means modification for the purpose of distribution is prohibited. If you remix, transform, or build upon the material, you may not distribute the modified material.
-Permissions	move	http://www.w3.org/ns/odrl/2/move	YES	The licensee can move their copy of the material (e.g., from one storage device to another). This is inherent in the right to copy and use.
-Permissions	next policy	http://www.w3.org/ns/odrl/2/nextPolicy	NO	The license does not grant the licensee the right to define or assign a next policy for the work. The work remains under CC BY-ND 4.0.
-Permissions	notice	http://creativecommons.org/ns#Notice	NO	This is a condition/obligation for the licensee to provide notices, not a permission granted to them.
-Permissions	obtain consent	http://www.w3.org/ns/odrl/2/obtainConsent	NO	The license doesn't grant the licensee the right to obtain consent from others regarding the work. Consent would typically be sought by the licensor or for uses outside the license.
-Permissions	play	http://www.w3.org/ns/odrl/2/play	YES	If the material is audio or video, the right to share and use for any purpose includes the right to play it.
-Permissions	present	http://www.w3.org/ns/odrl/2/present	YES	This is similar to 'display'. The right to share and use for any purpose includes presenting the work (e.g., in a slideshow, public performance of the unmodified work).
-Permissions	print	http://www.w3.org/ns/odrl/2/print	YES	The right to copy and redistribute the material in any medium or format includes making print copies.
-Permissions	read	http://www.w3.org/ns/odrl/2/read	YES	The right to copy and use the material inherently includes the right to read it.
-Permissions	reproduce	http://www.w3.org/ns/odrl/2/reproduce	YES	The license explicitly states copy ... the material. Reproduce is synonymous with copy.
-Permissions	reproduction	http://creativecommons.org/ns#Reproduction	YES	This is a core permission: copy and redistribute the material.
-Permissions	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	The license doesn't grant a specific permission to review a policy related to the asset. Anyone can review the CC BY-ND 4.0 license itself, but this is not a granted right over the asset.
-Permissions	sell	http://www.w3.org/ns/odrl/2/sell	YES	The license allows use for any purpose, even commercially. This includes selling the original, unmodified work, as long as attribution is given and no derivatives are made. The act of selling is a form of redistribution.
-Permissions	share Alike	http://creativecommons.org/ns#ShareAlike	NO	This is a CC BY-SA license feature, not CC BY-ND. This license does not require derivatives to be shared under the same terms, because it prohibits the distribution of derivatives.
-Permissions	sharing	http://creativecommons.org/ns#Sharing	YES	This is the primary permission: Share — copy and redistribute the material in any medium or format for any purpose, even commercially.
-Permissions	source code	http://www.w3.org/ns/odrl/2/sourceCode	NO	This Creative Commons license does not specifically mandate anything about source code, unlike some software licenses. If the licensed material is software and source code is provided, it can be shared under the same CC BY-ND terms. However, there is no explicit permission *related to demanding or providing* source code beyond what is shared by the licensor.
-Permissions	stream	http://www.w3.org/ns/odrl/2/stream	YES	If the material can be streamed (e.g., audio/video), the right to share and use for any purpose would include streaming it, as long as it's the original work.
-Permissions	synchronize	http://www.w3.org/ns/odrl/2/synchronize	NO	Synchronizing the material with another work (e.g., music with video) would likely create a derivative, which cannot be distributed.
-Permissions	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	NO	Generating speech from text might be considered creating an adaptation or derivative if the output is then distributed. Personal use is fine, but distribution of the TTS output as a representation of the work could be problematic under ND.
-Permissions	transform	http://www.w3.org/ns/odrl/2/transform	NO	The license is NoDerivatives. Transformation for the purpose of distribution is prohibited. If you remix, transform, or build upon the material, you may not distribute the modified material.
-Permissions	translate	http://www.w3.org/ns/odrl/2/translate	NO	A translation is considered a derivative work. Under CC BY-ND, you may not distribute translated versions of the material.
-Permissions	uninstall	http://www.w3.org/ns/odrl/2/uninstall	NO	The license grants rights to use software (if applicable), not specific rights related to uninstalling it from the licensor's or other's systems. A user can uninstall their own copy, but this isn't a permission granted by the license regarding the work itself.
-Permissions	use	http://www.w3.org/ns/odrl/2/use	YES	The phrase for any purpose in the context of sharing, copying, and redistributing implies a general permission to use the material, subject to the license conditions (attribution, no derivatives).
-Permissions	watermark	http://www.w3.org/ns/odrl/2/watermark	NO	Adding a watermark would be a modification. Distributing a watermarked version would be distributing a derivative, which is prohibited.
-Prohibitions	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	The license does not prohibit accepting tracking, nor does it address it.
-Prohibitions	aggregate	http://www.w3.org/ns/odrl/2/aggregate	NO	Aggregating the work with other works is not prohibited, as long as the work itself is not modified to create a derivative.
-Prohibitions	annotate	http://www.w3.org/ns/odrl/2/annotate	YES	Distributing an annotated version of the work is prohibited if the annotation is considered a modification/derivative. If you remix, transform, or build upon the material, you may not distribute the modified material.
-Prohibitions	anonymize	http://www.w3.org/ns/odrl/2/anonymize	YES	Distributing an anonymized version of the work is prohibited if anonymization is considered a modification/derivative.
-Prohibitions	archive	http://www.w3.org/ns/odrl/2/archive	NO	Archiving (making a copy for preservation) is not prohibited, it's a form of copying.
-Prohibitions	attribute	http://www.w3.org/ns/odrl/2/attribute	NO	The license does not prohibit associating an assertion with the asset, though it requires specific attribution. False attribution could be an issue outside the license.
-Prohibitions	attribution	http://creativecommons.org/ns#Attribution	NO	Failing to provide attribution is a violation of a condition, making the use unlicensed, rather than a direct prohibition of an action *called* 'attribution'. The license prohibits using the work *without* attribution.
-Prohibitions	commercial use	http://creativecommons.org/ns#CommercialUse	NO	Commercial use is explicitly permitted.
-Prohibitions	compensate	http://www.w3.org/ns/odrl/2/compensate	NO	The license does not prohibit compensation (e.g., if someone wanted to voluntarily compensate the licensor), but it doesn't require it.
-Prohibitions	concurrent use	http://www.w3.org/ns/odrl/2/concurrentUse	NO	Concurrent use is not prohibited.
-Prohibitions	delete	http://www.w3.org/ns/odrl/2/delete	NO	The license does not prohibit a user from deleting their own copy. It doesn't address deleting others' copies or the original.
-Prohibitions	derivative works	http://creativecommons.org/ns#DerivativeWorks	YES	The license explicitly states NoDerivatives — If you remix, transform, or build upon the material, you may not distribute the modified material. This is a core prohibition.
-Prohibitions	derive	http://www.w3.org/ns/odrl/2/derive	YES	Distributing derived material is prohibited. If you remix, transform, or build upon the material, you may not distribute the modified material.
-Prohibitions	digitize	http://www.w3.org/ns/odrl/2/digitize	NO	Digitizing, as a format shift, is not prohibited.
-Prohibitions	display	http://www.w3.org/ns/odrl/2/display	NO	Displaying the work is permitted.
-Prohibitions	distribute	http://www.w3.org/ns/odrl/2/distribute	NO	Distributing the original work is permitted. What is prohibited is distributing *derivatives*.
-Prohibitions	distribution	http://creativecommons.org/ns#Distribution	NO	Distribution of the original work is permitted. Distribution of derivatives is prohibited.
-Prohibitions	ensure exclusivity	http://www.w3.org/ns/odrl/2/ensureExclusivity	YES	The licensee may not attempt to ensure exclusivity for themselves. The license is non-exclusive. Also, No additional restrictions — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-Prohibitions	execute	http://www.w3.org/ns/odrl/2/execute	NO	Executing the work (if applicable) is not prohibited.
-Prohibitions	extract	http://www.w3.org/ns/odrl/2/extract	YES	If extracting and redistributing constitutes a derivative, then it is prohibited. Simply quoting or using excerpts as allowed by copyright exceptions (fair use) is not prohibited by the license. However, extracting to create a modified version for distribution is.
-Prohibitions	give	http://www.w3.org/ns/odrl/2/give	NO	Giving the work to others (sharing) is permitted.
-Prohibitions	grant use	http://www.w3.org/ns/odrl/2/grantUse	YES	The licensee cannot grant new or different uses/licenses for the material. They can only pass on the rights they received under CC BY-ND 4.0 by sharing the work. NoSublicense is stated in Section 2.a.1.
-Prohibitions	include	http://www.w3.org/ns/odrl/2/include	YES	If including the work in another results in a derivative work that is then distributed, it is prohibited. Simply collecting works is not prohibited.
-Prohibitions	index	http://www.w3.org/ns/odrl/2/index	YES	Distributing an index that is considered a derivative work is prohibited.
-Prohibitions	inform	http://www.w3.org/ns/odrl/2/inform	NO	The license does not prohibit informing relevant parties about aspects of the work, though it doesn't specifically grant it as a right either.
-Prohibitions	install	http://www.w3.org/ns/odrl/2/install	NO	Installing (if applicable) is not prohibited.
-Prohibitions	modify	http://www.w3.org/ns/odrl/2/modify	YES	Distributing modified material is prohibited. If you remix, transform, or build upon the material, you may not distribute the modified material.
-Prohibitions	move	http://www.w3.org/ns/odrl/2/move	NO	Moving a copy is not prohibited.
-Prohibitions	next policy	http://www.w3.org/ns/odrl/2/nextPolicy	YES	The licensee cannot apply a different subsequent policy to the work that would alter the CC BY-ND 4.0 terms for others.
-Prohibitions	notice	http://creativecommons.org/ns#Notice	NO	Failing to provide notice is a violation of a condition, not a prohibition of an action named 'notice'. One could argue that distributing *without* notice is prohibited implicitly.
-Prohibitions	obtain consent	http://www.w3.org/ns/odrl/2/obtainConsent	NO	The license doesn't prohibit obtaining consent for uses *outside* the license.
-Prohibitions	play	http://www.w3.org/ns/odrl/2/play	NO	Playing the work is not prohibited.
-Prohibitions	present	http://www.w3.org/ns/odrl/2/present	NO	Presenting the work is not prohibited.
-Prohibitions	print	http://www.w3.org/ns/odrl/2/print	NO	Printing is not prohibited.
-Prohibitions	read	http://www.w3.org/ns/odrl/2/read	NO	Reading is not prohibited.
-Prohibitions	reproduce	http://www.w3.org/ns/odrl/2/reproduce	NO	Reproducing (copying) is permitted.
-Prohibitions	reproduction	http://creativecommons.org/ns#Reproduction	NO	Reproduction of the original is permitted.
-Prohibitions	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	The license does not prohibit reviewing policies.
-Prohibitions	sell	http://www.w3.org/ns/odrl/2/sell	NO	Selling the original work is permitted.
-Prohibitions	share Alike	http://creativecommons.org/ns#ShareAlike	YES	Applying a ShareAlike condition is prohibited, as the license is ND. There are no derivatives to apply it to, and one cannot change the license terms.
-Prohibitions	sharing	http://creativecommons.org/ns#Sharing	NO	Sharing the original is permitted. Sharing derivatives is prohibited.
-Prohibitions	source code	http://www.w3.org/ns/odrl/2/sourceCode	NO	The license doesn't prohibit making source code available if one wishes, under the same CC BY-ND terms if it's part of the licensed material. It doesn't mandate it either.
-Prohibitions	stream	http://www.w3.org/ns/odrl/2/stream	NO	Streaming the original work is not prohibited.
-Prohibitions	synchronize	http://www.w3.org/ns/odrl/2/synchronize	YES	Distributing material that has been synchronized with another work is prohibited if it creates a derivative.
-Prohibitions	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	YES	Distributing a text-to-speech version of the work is prohibited if it is considered a derivative.
-Prohibitions	transform	http://www.w3.org/ns/odrl/2/transform	YES	Distributing transformed material is prohibited. If you remix, transform, or build upon the material, you may not distribute the modified material.
-Prohibitions	translate	http://www.w3.org/ns/odrl/2/translate	YES	Distributing a translation is prohibited as it's a derivative.
-Prohibitions	uninstall	http://www.w3.org/ns/odrl/2/uninstall	NO	The license does not prohibit uninstalling one's own copy.
-Prohibitions	use	http://www.w3.org/ns/odrl/2/use	NO	Using the work according to the license is permitted. Misuse (e.g. creating and distributing derivatives) is prohibited.
-Prohibitions	watermark	http://www.w3.org/ns/odrl/2/watermark	YES	Distributing a version with an added watermark is prohibited if the watermark is considered a modification/derivative.
-Obligations	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	The license does not impose any obligation regarding accepting tracking.
-Obligations	aggregate	http://www.w3.org/ns/odrl/2/aggregate	NO	There is no obligation to aggregate the material.
-Obligations	annotate	http://www.w3.org/ns/odrl/2/annotate	NO	There is no obligation to annotate the material.
-Obligations	anonymize	http://www.w3.org/ns/odrl/2/anonymize	NO	The license does not require anonymization. Other laws might, but not the license itself.
-Obligations	archive	http://www.w3.org/ns/odrl/2/archive	NO	There is no obligation to archive the material.
-Obligations	attribute	http://www.w3.org/ns/odrl/2/attribute	YES	This is a core obligation. Section 3(a)(1) states If You Share the Licensed Material, You must: A. retain the following... i. identification of the creator(s)... and any others designated to receive attribution..., B. indicate if You modified the Licensed Material [this part is nuanced as modifications cannot be shared]..., C. indicate the Licensed Material is licensed under this Public License... The ODRL 'attribute' action is to associate an assertion with the Asset. Providing attribution is associating such an assertion.
-Obligations	attribution	http://creativecommons.org/ns#Attribution	YES	This is a fundamental requirement of the CC BY-ND 4.0 license. You must give appropriate credit, provide a link to the license...
-Obligations	commercial use	http://creativecommons.org/ns#CommercialUse	NO	There is no obligation to use the material commercially. It is a permission.
-Obligations	compensate	http://www.w3.org/ns/odrl/2/compensate	NO	There is no obligation to compensate the licensor. The license is royalty-free.
-Obligations	concurrent use	http://www.w3.org/ns/odrl/2/concurrentUse	NO	There is no obligation related to concurrent use, only permission.
-Obligations	delete	http://www.w3.org/ns/odrl/2/delete	NO	There is no obligation to delete the material.
-Obligations	derivative works	http://creativecommons.org/ns#DerivativeWorks	NO	The obligation is to *not* distribute derivative works. This is a prohibition.
-Obligations	derive	http://www.w3.org/ns/odrl/2/derive	NO	There is no obligation to derive. Distribution of derived material is prohibited.
-Obligations	digitize	http://www.w3.org/ns/odrl/2/digitize	NO	There is no obligation to digitize the material.
-Obligations	display	http://www.w3.org/ns/odrl/2/display	NO	There is no obligation to display the material.
-Obligations	distribute	http://www.w3.org/ns/odrl/2/distribute	NO	There is no obligation to distribute the material.
-Obligations	distribution	http://creativecommons.org/ns#Distribution	NO	There is no obligation to distribute.
-Obligations	ensure exclusivity	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO	There is no obligation to ensure exclusivity. In fact, one must not.
-Obligations	execute	http://www.w3.org/ns/odrl/2/execute	NO	There is no obligation to execute the material.
-Obligations	extract	http://www.w3.org/ns/odrl/2/extract	NO	There is no obligation to extract from the material.
-Obligations	give	http://www.w3.org/ns/odrl/2/give	NO	There is no obligation to give the material to others.
-Obligations	grant use	http://www.w3.org/ns/odrl/2/grantUse	NO	There is no obligation to grant use. The licensee cannot grant new uses.
-Obligations	include	http://www.w3.org/ns/odrl/2/include	YES	Section 3(a)(1)(C) requires that if you share, you must indicate the Licensed Material is licensed under this Public License, and include the text of, or the URI or hyperlink to, this Public License. This is an obligation to 'include' license information.
-Obligations	index	http://www.w3.org/ns/odrl/2/index	NO	There is no obligation to index the material.
-Obligations	inform	http://www.w3.org/ns/odrl/2/inform	YES	Section 3(a)(1) requires providing certain information when sharing, such as identification of creators, copyright notice, license notice, disclaimer notice, and link to material. This is an obligation to 'inform' recipients about these details.
-Obligations	install	http://www.w3.org/ns/odrl/2/install	NO	There is no obligation to install the material.
-Obligations	modify	http://www.w3.org/ns/odrl/2/modify	NO	There is no obligation to modify. Distributing modifications is prohibited.
-Obligations	move	http://www.w3.org/ns/odrl/2/move	NO	There is no obligation to move the material.
-Obligations	next policy	http://www.w3.org/ns/odrl/2/nextPolicy	NO	There is no obligation to define a next policy.
-Obligations	notice	http://creativecommons.org/ns#Notice	YES	This is a key obligation. Section 3(a)(1) of the legal code details the notices that must be retained and provided if sharing: copyright notice, license notice, disclaimer notice, attribution notice.
-Obligations	obtain consent	http://www.w3.org/ns/odrl/2/obtainConsent	NO	There is no obligation for the licensee to obtain consent from third parties, though they may need to for uses outside the license.
-Obligations	play	http://www.w3.org/ns/odrl/2/play	NO	There is no obligation to play the material.
-Obligations	present	http://www.w3.org/ns/odrl/2/present	NO	There is no obligation to present the material.
-Obligations	print	http://www.w3.org/ns/odrl/2/print	NO	There is no obligation to print the material.
-Obligations	read	http://www.w3.org/ns/odrl/2/read	NO	There is no obligation to read the material.
-Obligations	reproduce	http://www.w3.org/ns/odrl/2/reproduce	NO	There is no obligation to reproduce the material.
-Obligations	reproduction	http://creativecommons.org/ns#Reproduction	NO	There is no obligation to make reproductions.
-Obligations	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	There is no obligation to review any policy.
-Obligations	sell	http://www.w3.org/ns/odrl/2/sell	NO	There is no obligation to sell the material.
-Obligations	share Alike	http://creativecommons.org/ns#ShareAlike	NO	This is not a CC BY-ND license requirement.
-Obligations	sharing	http://creativecommons.org/ns#Sharing	NO	There is no obligation to share the material. The obligations apply *if* one chooses to share.
-Obligations	source code	http://www.w3.org/ns/odrl/2/sourceCode	NO	There is no obligation under CC BY-ND to provide source code.
-Obligations	stream	http://www.w3.org/ns/odrl/2/stream	NO	There is no obligation to stream the material.
-Obligations	synchronize	http://www.w3.org/ns/odrl/2/synchronize	NO	There is no obligation to synchronize the material.
-Obligations	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	NO	There is no obligation to create a text-to-speech version.
-Obligations	transform	http://www.w3.org/ns/odrl/2/transform	NO	There is no obligation to transform the material.
-Obligations	translate	http://www.w3.org/ns/odrl/2/translate	NO	There is no obligation to translate the material.
-Obligations	uninstall	http://www.w3.org/ns/odrl/2/uninstall	NO	There is no obligation to uninstall material.
-Obligations	use	http://www.w3.org/ns/odrl/2/use	NO	There is no obligation to use the material.
-Obligations	watermark	http://www.w3.org/ns/odrl/2/watermark	NO	There is no obligation to apply a watermark. In fact, applying one for distribution could be a prohibited modification.
+CATEGORY	URI	RELEVANT
+PERMISSIONS	http://creativecommons.org/ns#Attribution	NO
+PROHIBITIONS	http://creativecommons.org/ns#Attribution	NO
+OBLIGATIONS	http://creativecommons.org/ns#Attribution	YES
+PERMISSIONS	http://creativecommons.org/ns#CommercialUse	YES
+PROHIBITIONS	http://creativecommons.org/ns#CommercialUse	NO
+OBLIGATIONS	http://creativecommons.org/ns#CommercialUse	NO
+PERMISSIONS	http://creativecommons.org/ns#DerivativeWorks	NO
+PROHIBITIONS	http://creativecommons.org/ns#DerivativeWorks	NO
+OBLIGATIONS	http://creativecommons.org/ns#DerivativeWorks	NO
+PERMISSIONS	http://creativecommons.org/ns#Distribution	YES
+PROHIBITIONS	http://creativecommons.org/ns#Distribution	NO
+OBLIGATIONS	http://creativecommons.org/ns#Distribution	NO
+PERMISSIONS	http://creativecommons.org/ns#Notice	NO
+PROHIBITIONS	http://creativecommons.org/ns#Notice	NO
+OBLIGATIONS	http://creativecommons.org/ns#Notice	YES
+PERMISSIONS	http://creativecommons.org/ns#Reproduction	YES
+PROHIBITIONS	http://creativecommons.org/ns#Reproduction	NO
+OBLIGATIONS	http://creativecommons.org/ns#Reproduction	NO
+PERMISSIONS	http://creativecommons.org/ns#ShareAlike	NO
+PROHIBITIONS	http://creativecommons.org/ns#ShareAlike	NO
+OBLIGATIONS	http://creativecommons.org/ns#ShareAlike	NO
+PERMISSIONS	http://creativecommons.org/ns#Sharing	YES
+PROHIBITIONS	http://creativecommons.org/ns#Sharing	NO
+OBLIGATIONS	http://creativecommons.org/ns#Sharing	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/acceptTracking	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/acceptTracking	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/acceptTracking	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/aggregate	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/aggregate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/aggregate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/annotate	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/annotate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/annotate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/anonymize	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/anonymize	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/anonymize	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/archive	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/archive	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/archive	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/attribute	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/attribute	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/attribute	YES
+PERMISSIONS	http://www.w3.org/ns/odrl/2/compensate	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/compensate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/compensate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/concurrentUse	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/concurrentUse	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/concurrentUse	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/delete	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/delete	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/delete	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/derive	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/derive	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/derive	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/digitize	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/digitize	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/digitize	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/display	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/display	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/display	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/distribute	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/distribute	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/distribute	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/ensureExclusivity	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/execute	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/execute	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/execute	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/extract	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/extract	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/extract	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/give	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/give	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/give	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/grantUse	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/grantUse	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/grantUse	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/include	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/include	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/include	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/index	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/index	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/index	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/inform	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/inform	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/inform	YES
+PERMISSIONS	http://www.w3.org/ns/odrl/2/install	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/install	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/install	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/modify	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/modify	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/modify	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/move	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/move	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/move	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/nextPolicy	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/nextPolicy	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/nextPolicy	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/obtainConsent	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/obtainConsent	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/obtainConsent	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/play	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/play	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/play	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/present	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/present	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/present	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/print	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/print	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/print	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/read	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/read	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/read	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/reproduce	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/reproduce	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/reproduce	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/reviewPolicy	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/reviewPolicy	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/reviewPolicy	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/sell	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/sell	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/sell	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/sourceCode	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/sourceCode	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/sourceCode	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/stream	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/stream	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/stream	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/synchronize	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/synchronize	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/synchronize	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/textToSpeech	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/textToSpeech	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/textToSpeech	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/transform	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/transform	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/transform	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/translate	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/translate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/translate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/uninstall	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/uninstall	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/uninstall	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/use	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/use	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/use	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/watermark	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/watermark	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/watermark	NO

@@ -1,151 +1,151 @@
-Section	Action	URI	Applicable	Reasoning
-Permissions	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	The PDM relates to copyright status of a work, not typically to interactions with services that might involve tracking. Whether a user accepts tracking is independent of the public domain status of the content being accessed.
-Permissions	aggregate	http://www.w3.org/ns/odrl/2/aggregate	YES	A work in the public domain can be aggregated with other works without copyright restriction.
-Permissions	annotate	http://www.w3.org/ns/odrl/2/annotate	YES	A work in the public domain can be annotated (e.g., adding notes or commentary) without copyright restriction.
-Permissions	anonymize	http://www.w3.org/ns/odrl/2/anonymize	YES	If the work contains personal data, and one has the right to process it, anonymizing it is a form of modification/use, permissible for a public domain work. The PDM itself doesn't govern data protection, but doesn't restrict this act on the content.
-Permissions	archive	http://www.w3.org/ns/odrl/2/archive	YES	A work in the public domain can be archived without copyright restriction.
-Permissions	attribute	http://www.w3.org/ns/odrl/2/attribute	YES	While PDM itself doesn't mandate attribution (unlike some CC licenses), the act of attributing is not restricted. Moral rights may still apply in some jurisdictions, making attribution appropriate or required by other laws, but from a copyright permission standpoint under PDM, one *can* attribute.
-Permissions	attribution	http://creativecommons.org/ns#Attribution	NO	PDM signifies public domain, which means no copyright conditions like mandatory attribution are imposed by the mark itself. While good practice, it's not a permission granted *by* PDM as a condition, but an inherent freedom.
-Permissions	commercial use	http://creativecommons.org/ns#CommercialUse	YES	Works in the public domain can be used for commercial purposes without copyright restriction.
-Permissions	compensate	http://www.w3.org/ns/odrl/2/compensate	NO	The PDM indicates a work is free of copyright restriction there is no requirement or mechanism for compensation related to the copyright status. This action is usually a duty, not a permission granted to the user.
-Permissions	concurrent use	http://www.w3.org/ns/odrl/2/concurrentUse	YES	There are no copyright restrictions on how many people can use a public domain work simultaneously.
-Permissions	delete	http://www.w3.org/ns/odrl/2/delete	YES	A user who has a copy of a public domain work can delete their copy. This refers to the user's copy, not the original or other copies.
-Permissions	derivative works	http://creativecommons.org/ns#DerivativeWorks	YES	Works in the public domain can be modified to create derivative works without copyright restriction.
-Permissions	derive	http://www.w3.org/ns/odrl/2/derive	YES	A work in the public domain can be used to derive new works without copyright restriction.
-Permissions	digitize	http://www.w3.org/ns/odrl/2/digitize	YES	A work in the public domain (if in analog form) can be digitized without copyright restriction.
-Permissions	display	http://www.w3.org/ns/odrl/2/display	YES	A work in the public domain can be displayed publicly without copyright restriction.
-Permissions	distribute	http://www.w3.org/ns/odrl/2/distribute	YES	A work in the public domain can be distributed without copyright restriction.
-Permissions	distribution	http://creativecommons.org/ns#Distribution	YES	Synonymous with 'distribute'. Works in the public domain can be distributed.
-Permissions	ensure exclusivity	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO	The nature of public domain is non-exclusive. One cannot ensure exclusivity for a public domain work based on copyright.
-Permissions	execute	http://www.w3.org/ns/odrl/2/execute	YES	If the public domain work is software or a program, it can be executed without copyright restriction.
-Permissions	extract	http://www.w3.org/ns/odrl/2/extract	YES	Parts of a public domain work can be extracted without copyright restriction.
-Permissions	give	http://www.w3.org/ns/odrl/2/give	YES	A copy of a public domain work can be given to others without copyright restriction.
-Permissions	grant use	http://www.w3.org/ns/odrl/2/grantUse	NO	An individual user cannot 'grant use' for a public domain work as if they are the rightsholder, because there are no copyright restrictions to grant. The work is already free for all to use.
-Permissions	include	http://www.w3.org/ns/odrl/2/include	YES	A public domain work can be included in other collections or works without copyright restriction.
-Permissions	index	http://www.w3.org/ns/odrl/2/index	YES	A public domain work can be indexed (e.g., by a search engine or for a database) without copyright restriction.
-Permissions	inform	http://www.w3.org/ns/odrl/2/inform	YES	One can inform others about a public domain work or its contents. This is a general action not typically restricted by copyright.
-Permissions	install	http://www.w3.org/ns/odrl/2/install	YES	If the public domain work is software, it can be installed without copyright restriction.
-Permissions	modify	http://www.w3.org/ns/odrl/2/modify	YES	A work in the public domain can be modified without copyright restriction.
-Permissions	move	http://www.w3.org/ns/odrl/2/move	YES	A user can move their copy of a public domain work (e.g., from one storage device to another).
-Permissions	next policy	http://www.w3.org/ns/odrl/2/nextPolicy	NO	PDM signifies the end of copyright restrictions there is no 'next policy' in terms of copyright from the PDM itself.
-Permissions	notice	http://creativecommons.org/ns#Notice	NO	PDM signifies public domain, which means no copyright conditions like requiring notices are imposed by the mark itself for the use of the work.
-Permissions	obtain consent	http://www.w3.org/ns/odrl/2/obtainConsent	NO	Consent is not needed for using a public domain work from a copyright perspective. This action is usually for data privacy contexts.
-Permissions	play	http://www.w3.org/ns/odrl/2/play	YES	If the public domain work is a media file (audio/video), it can be played without copyright restriction.
-Permissions	present	http://www.w3.org/ns/odrl/2/present	YES	A work in the public domain can be presented (e.g., in a lecture or performance) without copyright restriction.
-Permissions	print	http://www.w3.org/ns/odrl/2/print	YES	A work in the public domain can be printed without copyright restriction.
-Permissions	read	http://www.w3.org/ns/odrl/2/read	YES	A work in the public domain can be read without copyright restriction.
-Permissions	reproduce	http://www.w3.org/ns/odrl/2/reproduce	YES	A work in the public domain can be reproduced (copied) without copyright restriction.
-Permissions	reproduction	http://creativecommons.org/ns#Reproduction	YES	Synonymous with 'reproduce'. Works in the public domain can be reproduced.
-Permissions	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	The PDM is not a policy to be reviewed by the user in terms of their use rights it's a statement about the work's status.
-Permissions	sell	http://www.w3.org/ns/odrl/2/sell	YES	A public domain work, or copies of it, can be sold. The copyright status does not prevent selling the work or a product incorporating it.
-Permissions	share Alike	http://creativecommons.org/ns#ShareAlike	NO	PDM signifies public domain. There is no ShareAlike condition, as that is a specific license term for copyrighted works.
-Permissions	sharing	http://creativecommons.org/ns#Sharing	YES	Works in the public domain can be shared without copyright restriction.
-Permissions	source code	http://www.w3.org/ns/odrl/2/sourceCode	YES	If the PDM work is software and source code is available, it can be accessed and used. The PDM itself doesn't mandate providing source code, but using available source code of a PD program is permitted.
-Permissions	stream	http://www.w3.org/ns/odrl/2/stream	YES	If the public domain work is media, it can be streamed without copyright restriction.
-Permissions	synchronize	http://www.w3.org/ns/odrl/2/synchronize	YES	If the work is media (e.g., audio with video), it can be synchronized. This is a form of use/modification.
-Permissions	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	YES	A textual public domain work can be converted to speech without copyright restriction.
-Permissions	transform	http://www.w3.org/ns/odrl/2/transform	YES	A work in the public domain can be transformed (a type of modification) without copyright restriction.
-Permissions	translate	http://www.w3.org/ns/odrl/2/translate	YES	A work in the public domain can be translated without copyright restriction.
-Permissions	uninstall	http://www.w3.org/ns/odrl/2/uninstall	YES	If the public domain work is installed software, it can be uninstalled.
-Permissions	use	http://www.w3.org/ns/odrl/2/use	YES	A work in the public domain can be used for any purpose without copyright restriction.
-Permissions	watermark	http://www.w3.org/ns/odrl/2/watermark	NO	While one *could* add a watermark to their copy of a public domain work, this action usually implies a restriction or a claim being asserted, which is contrary to the nature of public domain. PDM doesn't grant a 'permission' to watermark in a rights sense, but doesn't prevent one from modifying their copy. However, misleadingly implying copyright by a watermark would be problematic.
-Prohibitions	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	PDM does not prohibit accepting tracking. This is user choice, unrelated to copyright status.
-Prohibitions	aggregate	http://www.w3.org/ns/odrl/2/aggregate	NO	PDM does not prohibit aggregation. Works are free to be aggregated.
-Prohibitions	annotate	http://www.w3.org/ns/odrl/2/annotate	NO	PDM does not prohibit annotation. Works are free to be annotated.
-Prohibitions	anonymize	http://www.w3.org/ns/odrl/2/anonymize	NO	PDM does not prohibit anonymization of data within a work, if applicable.
-Prohibitions	archive	http://www.w3.org/ns/odrl/2/archive	NO	PDM does not prohibit archiving.
-Prohibitions	attribute	http://www.w3.org/ns/odrl/2/attribute	NO	PDM does not prohibit attribution.
-Prohibitions	attribution	http://creativecommons.org/ns#Attribution	NO	PDM does not require or prohibit attribution from a copyright perspective.
-Prohibitions	commercial use	http://creativecommons.org/ns#CommercialUse	NO	PDM does not prohibit commercial use.
-Prohibitions	compensate	http://www.w3.org/ns/odrl/2/compensate	NO	PDM does not create a prohibition related to compensation.
-Prohibitions	concurrent use	http://www.w3.org/ns/odrl/2/concurrentUse	NO	PDM does not prohibit concurrent use.
-Prohibitions	delete	http://www.w3.org/ns/odrl/2/delete	NO	PDM does not prohibit deleting one's copy of a work.
-Prohibitions	derivative works	http://creativecommons.org/ns#DerivativeWorks	NO	PDM does not prohibit creating derivative works.
-Prohibitions	derive	http://www.w3.org/ns/odrl/2/derive	NO	PDM does not prohibit deriving new works.
-Prohibitions	digitize	http://www.w3.org/ns/odrl/2/digitize	NO	PDM does not prohibit digitizing.
-Prohibitions	display	http://www.w3.org/ns/odrl/2/display	NO	PDM does not prohibit display.
-Prohibitions	distribute	http://www.w3.org/ns/odrl/2/distribute	NO	PDM does not prohibit distribution.
-Prohibitions	distribution	http://creativecommons.org/ns#Distribution	NO	PDM does not prohibit distribution.
-Prohibitions	ensure exclusivity	http://www.w3.org/ns/odrl/2/ensureExclusivity	YES	While PDM itself doesn't prohibit this action, the nature of public domain means one *cannot* ensure exclusivity based on copyright. So, attempting to assert copyright exclusivity over a PD work is effectively prohibited by the work's actual status. The action of ensuring exclusivity is counter to what PDM represents.
-Prohibitions	execute	http://www.w3.org/ns/odrl/2/execute	NO	PDM does not prohibit execution (of software).
-Prohibitions	extract	http://www.w3.org/ns/odrl/2/extract	NO	PDM does not prohibit extraction.
-Prohibitions	give	http://www.w3.org/ns/odrl/2/give	NO	PDM does not prohibit giving a copy of the work.
-Prohibitions	grant use	http://www.w3.org/ns/odrl/2/grantUse	NO	PDM does not prohibit 'granting use', though such an act by a user would be meaningless for a PD work.
-Prohibitions	include	http://www.w3.org/ns/odrl/2/include	NO	PDM does not prohibit including the work elsewhere.
-Prohibitions	index	http://www.w3.org/ns/odrl/2/index	NO	PDM does not prohibit indexing.
-Prohibitions	inform	http://www.w3.org/ns/odrl/2/inform	NO	PDM does not prohibit informing others about the work.
-Prohibitions	install	http://www.w3.org/ns/odrl/2/install	NO	PDM does not prohibit installation (of software).
-Prohibitions	modify	http://www.w3.org/ns/odrl/2/modify	NO	PDM does not prohibit modification.
-Prohibitions	move	http://www.w3.org/ns/odrl/2/move	NO	PDM does not prohibit moving one's copy.
-Prohibitions	next policy	http://www.w3.org/ns/odrl/2/nextPolicy	NO	PDM does not prohibit the existence of other, unrelated policies.
-Prohibitions	notice	http://creativecommons.org/ns#Notice	NO	PDM does not prohibit providing notices, though it does not require them for copyright purposes.
-Prohibitions	obtain consent	http://www.w3.org/ns/odrl/2/obtainConsent	NO	PDM does not prohibit obtaining consent if one chose to for other reasons, but it's not required for copyright.
-Prohibitions	play	http://www.w3.org/ns/odrl/2/play	NO	PDM does not prohibit playing media.
-Prohibitions	present	http://www.w3.org/ns/odrl/2/present	NO	PDM does not prohibit presenting the work.
-Prohibitions	print	http://www.w3.org/ns/odrl/2/print	NO	PDM does not prohibit printing.
-Prohibitions	read	http://www.w3.org/ns/odrl/2/read	NO	PDM does not prohibit reading.
-Prohibitions	reproduce	http://www.w3.org/ns/odrl/2/reproduce	NO	PDM does not prohibit reproduction.
-Prohibitions	reproduction	http://creativecommons.org/ns#Reproduction	NO	PDM does not prohibit reproduction.
-Prohibitions	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	PDM does not prohibit reviewing policies in general.
-Prohibitions	sell	http://www.w3.org/ns/odrl/2/sell	NO	PDM does not prohibit selling.
-Prohibitions	share Alike	http://creativecommons.org/ns#ShareAlike	NO	PDM does not prohibit applying a ShareAlike license to one's *new contributions* if creating a derivative work, but it cannot be imposed on the original public domain work.
-Prohibitions	sharing	http://creativecommons.org/ns#Sharing	NO	PDM does not prohibit sharing.
-Prohibitions	source code	http://www.w3.org/ns/odrl/2/sourceCode	NO	PDM does not prohibit accessing or using available source code of a PD program.
-Prohibitions	stream	http://www.w3.org/ns/odrl/2/stream	NO	PDM does not prohibit streaming.
-Prohibitions	synchronize	http://www.w3.org/ns/odrl/2/synchronize	NO	PDM does not prohibit synchronization.
-Prohibitions	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	NO	PDM does not prohibit text-to-speech conversion.
-Prohibitions	transform	http://www.w3.org/ns/odrl/2/transform	NO	PDM does not prohibit transformation.
-Prohibitions	translate	http://www.w3.org/ns/odrl/2/translate	NO	PDM does not prohibit translation.
-Prohibitions	uninstall	http://www.w3.org/ns/odrl/2/uninstall	NO	PDM does not prohibit uninstallation (of software).
-Prohibitions	use	http://www.w3.org/ns/odrl/2/use	NO	PDM does not prohibit use.
-Prohibitions	watermark	http://www.w3.org/ns/odrl/2/watermark	NO	PDM does not prohibit a user from adding a watermark to their own copy. However, adding a watermark that falsely implies copyright over the public domain work itself would be misleading and problematic, though not a prohibition from PDM directly.
-Obligations	accept tracking	http://www.w3.org/ns/odrl/2/acceptTracking	NO	PDM imposes no obligation to accept tracking.
-Obligations	aggregate	http://www.w3.org/ns/odrl/2/aggregate	NO	PDM imposes no obligation to aggregate the work.
-Obligations	annotate	http://www.w3.org/ns/odrl/2/annotate	NO	PDM imposes no obligation to annotate the work.
-Obligations	anonymize	http://www.w3.org/ns/odrl/2/anonymize	NO	PDM imposes no obligation to anonymize data within the work (though other laws might).
-Obligations	archive	http://www.w3.org/ns/odrl/2/archive	NO	PDM imposes no obligation to archive the work.
-Obligations	attribute	http://www.w3.org/ns/odrl/2/attribute	NO	PDM itself imposes no obligation to attribute the author or work for copyright purposes, as it signifies public domain. Moral rights in some jurisdictions might create an obligation, but this is separate from PDM.
-Obligations	attribution	http://creativecommons.org/ns#Attribution	NO	PDM signifies public domain, so there's no obligation for attribution under copyright.
-Obligations	commercial use	http://creativecommons.org/ns#CommercialUse	NO	PDM imposes no obligation for commercial use.
-Obligations	compensate	http://www.w3.org/ns/odrl/2/compensate	NO	PDM imposes no obligation to compensate any party for use of the work under copyright.
-Obligations	concurrent use	http://www.w3.org/ns/odrl/2/concurrentUse	NO	PDM imposes no obligation regarding concurrent use.
-Obligations	delete	http://www.w3.org/ns/odrl/2/delete	NO	PDM imposes no obligation to delete the work.
-Obligations	derivative works	http://creativecommons.org/ns#DerivativeWorks	NO	PDM imposes no obligation to create derivative works.
-Obligations	derive	http://www.w3.org/ns/odrl/2/derive	NO	PDM imposes no obligation to derive new works.
-Obligations	digitize	http://www.w3.org/ns/odrl/2/digitize	NO	PDM imposes no obligation to digitize the work.
-Obligations	display	http://www.w3.org/ns/odrl/2/display	NO	PDM imposes no obligation to display the work.
-Obligations	distribute	http://www.w3.org/ns/odrl/2/distribute	NO	PDM imposes no obligation to distribute the work.
-Obligations	distribution	http://creativecommons.org/ns#Distribution	NO	PDM imposes no obligation for distribution.
-Obligations	ensure exclusivity	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO	PDM imposes no obligation to ensure exclusivity in fact, it's contrary to public domain.
-Obligations	execute	http://www.w3.org/ns/odrl/2/execute	NO	PDM imposes no obligation to execute the work (if software).
-Obligations	extract	http://www.w3.org/ns/odrl/2/extract	NO	PDM imposes no obligation to extract parts of the work.
-Obligations	give	http://www.w3.org/ns/odrl/2/give	NO	PDM imposes no obligation to give the work to others.
-Obligations	grant use	http://www.w3.org/ns/odrl/2/grantUse	NO	PDM imposes no obligation to 'grant use'.
-Obligations	include	http://www.w3.org/ns/odrl/2/include	NO	PDM imposes no obligation to include the work in other collections.
-Obligations	index	http://www.w3.org/ns/odrl/2/index	NO	PDM imposes no obligation to index the work.
-Obligations	inform	http://www.w3.org/ns/odrl/2/inform	NO	PDM imposes no obligation to inform others about the work (e.g. changes made), although if one indicates the work is PDM, they should not misrepresent it.
-Obligations	install	http://www.w3.org/ns/odrl/2/install	NO	PDM imposes no obligation to install the work (if software).
-Obligations	modify	http://www.w3.org/ns/odrl/2/modify	NO	PDM imposes no obligation to modify the work.
-Obligations	move	http://www.w3.org/ns/odrl/2/move	NO	PDM imposes no obligation to move the work.
-Obligations	next policy	http://www.w3.org/ns/odrl/2/nextPolicy	NO	PDM imposes no obligation to adhere to a 'next policy'.
-Obligations	notice	http://creativecommons.org/ns#Notice	NO	PDM imposes no obligation to provide a notice when using the work. The PDM itself is a notice about status.
-Obligations	obtain consent	http://www.w3.org/ns/odrl/2/obtainConsent	NO	PDM imposes no obligation to obtain consent for copyright purposes.
-Obligations	play	http://www.w3.org/ns/odrl/2/play	NO	PDM imposes no obligation to play the work (if media).
-Obligations	present	http://www.w3.org/ns/odrl/2/present	NO	PDM imposes no obligation to present the work.
-Obligations	print	http://www.w3.org/ns/odrl/2/print	NO	PDM imposes no obligation to print the work.
-Obligations	read	http://www.w3.org/ns/odrl/2/read	NO	PDM imposes no obligation to read the work.
-Obligations	reproduce	http://www.w3.org/ns/odrl/2/reproduce	NO	PDM imposes no obligation to reproduce the work.
-Obligations	reproduction	http://creativecommons.org/ns#Reproduction	NO	PDM imposes no obligation for reproduction.
-Obligations	review policy	http://www.w3.org/ns/odrl/2/reviewPolicy	NO	PDM imposes no obligation to review any policy.
-Obligations	sell	http://www.w3.org/ns/odrl/2/sell	NO	PDM imposes no obligation to sell the work.
-Obligations	share Alike	http://creativecommons.org/ns#ShareAlike	NO	PDM imposes no ShareAlike obligation.
-Obligations	sharing	http://creativecommons.org/ns#Sharing	NO	PDM imposes no obligation for sharing.
-Obligations	source code	http://www.w3.org/ns/odrl/2/sourceCode	NO	PDM imposes no obligation to provide source code (this obligation is sometimes found in copyleft licenses for software).
-Obligations	stream	http://www.w3.org/ns/odrl/2/stream	NO	PDM imposes no obligation to stream the work.
-Obligations	synchronize	http://www.w3.org/ns/odrl/2/synchronize	NO	PDM imposes no obligation to synchronize media.
-Obligations	Text-to-speech	http://www.w3.org/ns/odrl/2/textToSpeech	NO	PDM imposes no obligation to convert text to speech.
-Obligations	transform	http://www.w3.org/ns/odrl/2/transform	NO	PDM imposes no obligation to transform the work.
-Obligations	translate	http://www.w3.org/ns/odrl/2/translate	NO	PDM imposes no obligation to translate the work.
-Obligations	uninstall	http://www.w3.org/ns/odrl/2/uninstall	NO	PDM imposes no obligation to uninstall the work (if software).
-Obligations	use	http://www.w3.org/ns/odrl/2/use	NO	PDM imposes no obligation to use the work.
-Obligations	watermark	http://www.w3.org/ns/odrl/2/watermark	NO	PDM imposes no obligation to watermark the work.
+CATEGORY	URI	RELEVANT
+PERMISSIONS	http://creativecommons.org/ns#Attribution	NO
+PROHIBITIONS	http://creativecommons.org/ns#Attribution	NO
+OBLIGATIONS	http://creativecommons.org/ns#Attribution	NO
+PERMISSIONS	http://creativecommons.org/ns#CommercialUse	YES
+PROHIBITIONS	http://creativecommons.org/ns#CommercialUse	NO
+OBLIGATIONS	http://creativecommons.org/ns#CommercialUse	NO
+PERMISSIONS	http://creativecommons.org/ns#DerivativeWorks	YES
+PROHIBITIONS	http://creativecommons.org/ns#DerivativeWorks	NO
+OBLIGATIONS	http://creativecommons.org/ns#DerivativeWorks	NO
+PERMISSIONS	http://creativecommons.org/ns#Distribution	YES
+PROHIBITIONS	http://creativecommons.org/ns#Distribution	NO
+OBLIGATIONS	http://creativecommons.org/ns#Distribution	NO
+PERMISSIONS	http://creativecommons.org/ns#Notice	NO
+PROHIBITIONS	http://creativecommons.org/ns#Notice	NO
+OBLIGATIONS	http://creativecommons.org/ns#Notice	NO
+PERMISSIONS	http://creativecommons.org/ns#Reproduction	YES
+PROHIBITIONS	http://creativecommons.org/ns#Reproduction	NO
+OBLIGATIONS	http://creativecommons.org/ns#Reproduction	NO
+PERMISSIONS	http://creativecommons.org/ns#ShareAlike	NO
+PROHIBITIONS	http://creativecommons.org/ns#ShareAlike	NO
+OBLIGATIONS	http://creativecommons.org/ns#ShareAlike	NO
+PERMISSIONS	http://creativecommons.org/ns#Sharing	YES
+PROHIBITIONS	http://creativecommons.org/ns#Sharing	NO
+OBLIGATIONS	http://creativecommons.org/ns#Sharing	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/acceptTracking	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/acceptTracking	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/acceptTracking	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/aggregate	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/aggregate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/aggregate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/annotate	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/annotate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/annotate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/anonymize	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/anonymize	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/anonymize	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/archive	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/archive	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/archive	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/attribute	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/attribute	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/attribute	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/compensate	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/compensate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/compensate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/concurrentUse	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/concurrentUse	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/concurrentUse	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/delete	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/delete	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/delete	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/derive	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/derive	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/derive	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/digitize	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/digitize	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/digitize	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/display	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/display	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/display	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/distribute	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/distribute	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/distribute	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/ensureExclusivity	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/ensureExclusivity	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/execute	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/execute	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/execute	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/extract	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/extract	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/extract	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/give	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/give	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/give	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/grantUse	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/grantUse	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/grantUse	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/include	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/include	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/include	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/index	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/index	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/index	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/inform	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/inform	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/inform	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/install	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/install	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/install	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/modify	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/modify	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/modify	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/move	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/move	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/move	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/nextPolicy	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/nextPolicy	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/nextPolicy	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/obtainConsent	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/obtainConsent	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/obtainConsent	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/play	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/play	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/play	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/present	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/present	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/present	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/print	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/print	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/print	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/read	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/read	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/read	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/reproduce	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/reproduce	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/reproduce	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/reviewPolicy	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/reviewPolicy	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/reviewPolicy	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/sell	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/sell	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/sell	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/sourceCode	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/sourceCode	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/sourceCode	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/stream	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/stream	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/stream	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/synchronize	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/synchronize	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/synchronize	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/textToSpeech	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/textToSpeech	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/textToSpeech	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/transform	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/transform	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/transform	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/translate	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/translate	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/translate	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/uninstall	YES
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/uninstall	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/uninstall	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/use	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/use	NO
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/use	NO
+PERMISSIONS	http://www.w3.org/ns/odrl/2/watermark	NO
+PROHIBITIONS	http://www.w3.org/ns/odrl/2/watermark	YES
+OBLIGATIONS	http://www.w3.org/ns/odrl/2/watermark	NO
